@@ -4,6 +4,10 @@ $(function() {
     
 });
 
+var goToTop = function(){
+    $(window).scrollTop(0);
+}
+
 var selectLetsKnowUsTab = function(){
     $('.conocenos-content').addClass('hidden');
     $('.conocenos-menu div').removeClass('active');

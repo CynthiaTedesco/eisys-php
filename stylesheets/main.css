@@ -122,6 +122,7 @@ div.collapse.navbar-collapse {
     text-align: right;
     margin-top: -5%;
     margin-bottom: 1em;
+    cursor: pointer;
 }
 
 .div-footer {
