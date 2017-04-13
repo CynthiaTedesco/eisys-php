@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Eisys</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/js/dropdown.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css" />
+
+
+		<!--<link rel="stylesheets" href="stylesheets/bootstrap/bootstrap-theme.min.css">-->
+		<script type="text/javaScript" src="js/lang.js"></script>
+		<script type="text/javaScript" src="js/en.js"></script>
+		<!--<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>-->
+		<script type="text/javaScript" src="js/es.js"></script>
+		<script type="text/javaScript" src="js/eisys.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			    $("#menu").load("menu.html", function() {
+			        menuBehavior('#menu-contactanos');
+			    });
+			});
+		</script>
+	</head>
+	<body>
+	<header id="header"></header>
+	<div id="menu"></div>
+	<div id="content">
+		<div class="section-header">
+			<img src="images/contacto/contacto-foto.jpg" class="img-responsive" alt="contactanos-header">
+			<div class="over-header">
+				<span class="tr" key="menu-contactanos">CONTACTANOS</span>
+			</div>
+		</div>
+		<form id="contacto-form">
+			<div class="contacto-header">
+				<div>
+					<img src="images/contacto/contacto-muñequito.jpg" alt="muniequito">
+				</div>
+				<div class="tr" key="contacto-esperamos-tu-consulta"></div>
+				<div class="tr" key="obligatorios"></div>
+			</div>
+			<div class="contacto-content container">
+				<div class="row fields">
+					<div class="row first col-750-5 col-970-6">
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 col-750-12 col-970-4">
+								<label class="tr" key="nombre-apellido"></label>
+							</div>
+							<div class="col-xs-12 col-sm-7 col-750-12 col-970-8">
+								<input type="text" id="contacto-nombre" required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 col-750-12 col-970-4">
+								<label class="tr" key="telefono-fijo"></label>
+							</div>
+							<div class="col-xs-12 col-sm-7 col-750-12 col-970-8">
+								<input type="text" id="contacto-tel-fijo">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 col-750-12 col-970-4">
+								<label class="tr" key="telefono-movil"></label>
+							</div>
+							<div class="col-xs-12 col-sm-7 col-750-12 col-970-8">
+								<input type="text" id="contacto-tel-movil">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 col-750-12 col-970-4">
+								<label class="tr" key="email"></label>
+							</div>
+							<div class="col-xs-12 col-sm-7 col-750-12 col-970-8">
+								<input type="email" id="contacto-email" required>
+							</div>
+						</div>
+					</div>
+					<div class="row mensaje col-750-7 col-970-6">
+						<div>
+							<label class="tr" key="contacto-mensaje"></label>
+						</div>
+						<div>
+							<textarea id="contacto_mensaje" required rows="4"></textarea>
+						</div>
+						<div class="message-notification error-message-contactanos hidden">
+							<br/>
+							<i class="fa fa-times error-color" aria-hidden="true"></i>
+							<span class="tr" key="message-notification-failed"></span>
+						</div>
+						<div class="success-message success-message-contactanos hidden">
+							<br/>
+							<i class="fa fa-check success-color" aria-hidden="true"></i>
+							<span class="tr" key="message-notification"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact-buttons buttons-div">
+				<button type="button" class="btn cancel-button tr" onclick="clearContactFields()" key="cancelar">CANCELAR</button>
+				<button type="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i>" class="btn btn-default send-button tr" key="enviar">ENVIAR</button>
+			</div>
+		</form>
+	</div>
+<footer id="footer"></footer>
+</body>
+</html>

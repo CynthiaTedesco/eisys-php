@@ -1,0 +1,251 @@
+@media screen and (min-width: 768px) {
+
+    .carousel-caption {
+        top: 40%;
+    }
+
+    .carousel-inner > .item {
+        height: initial;
+    }
+
+    .jumbotron p {
+        max-width: 75%;
+        margin: 1em auto 2em;
+        font-size: large;
+    }
+
+    div.collapse.navbar-collapse {
+        background: transparent;
+    }
+
+    a.navbar-brand img {
+        position: absolute;
+        top: 0;
+    }
+
+    .main.navbar-default .navbar-nav > .active > a {
+        color: white;
+        background-color: #0A3A4A;
+    }
+
+    .know.navbar-default .navbar-nav > .active > a {
+        border-radius: 2em;
+        color: white;
+        background-color: #F19200;
+        height: auto;
+    }
+
+    .main.navbar-default .navbar-nav > li > a {
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        margin: auto;
+    }
+
+    .know.navbar-default .navbar-nav > li.active > a:after {
+        content: url(../images/conocenos/menu-arrow.png);
+        display: block;
+        position: absolute;
+        right: 1.5em;
+        top: 35%;
+    }
+
+    .know.navbar-default .navbar-nav > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-nav > li {
+        margin-left: 1em;
+        border-bottom: none;
+    }
+
+    .navbar div.container-fluid {
+        height: 6em
+    }
+
+    .footer {
+        background: #c0c0c0;
+        color: white;
+    }
+
+    .footer-social {
+        background: url(../images/footer/bk-social.jpg);
+        background-repeat: round;
+        background-size: cover;
+        padding: 4em 4em 0;
+        border-left: 1px solid orange;
+        margin: initial;
+    }
+
+    .div-footer {
+        border-top: orange solid 1px;
+    }
+
+    div.commitment {
+        padding: 1em 0;
+    }
+
+    div.home-links {
+        margin-top: 0;
+        width: 41.66666667%;
+    }
+
+    div.home-links > div {
+        padding: 12em 25%;
+    }
+
+    div.home-links > div > div {
+        margin: 1.5em 0;
+        padding: 5%;
+        border-radius: initial;
+    }
+
+    .alliances-logos {
+        padding: 0 1%;
+    }
+
+    .banner {
+        /*height: 85em;*/
+        height: auto;
+        display: inline-block;
+        /*padding-bottom: zz;*/
+    }
+
+    div.content {
+        margin-right: initial;
+        display: inherit;
+        padding-bottom: 5%;
+    }
+
+    div.content div.menu {
+        /*position: absolute;*/
+        /*left: 0;*/
+    }
+
+    nav.know.navbar.navbar-default {
+        font-size: x-small;
+        margin-top: auto;
+    }
+
+    div.section > div.title {
+        width: 80%;
+    }
+
+    div.paragraphs > div.signature {
+        padding-left: 3em;
+    }
+
+    div.content div.section {
+        border: none;
+        min-height: 30em;
+        /*position: absolute;*/
+        /*right: 5%;*/
+    }
+
+    div.content nav. navbar {
+        width: 70%;
+    }
+
+    div.banner.services > div.title {
+        padding-top: 6em;
+    }
+
+    div.banner.services > div.subtitle {
+        margin-bottom: 5%;
+    }
+
+    div.services:not(.banner) > div.paragraph {
+        padding: 5%;
+    }
+
+    div.services:not(.banner) {
+        background-color: #F7F8FA;
+    }
+
+    .mandatory {
+        padding: 2% 5%;
+    }
+
+    div.message {
+        min-height: 25em;
+    }
+
+    textarea {
+        height: 18em;
+    }
+
+    div.contact .fields {
+        min-height: 30em;
+    }
+
+    div.contact #form div.button {
+        padding: 3%;
+    }
+
+    div.contact #form div.button button {
+        width: 20%;
+        padding: 2%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    div.section > div.title {
+        width: 70%;
+    }
+
+    nav.know.navbar.navbar-default {
+        font-size: smaller;
+        margin-top: 5%;
+        width: initial;
+    }
+
+    .know > .navbar-right {
+        margin-right: 0;
+    }
+
+    div.content div.section {
+        /*right:1em;*/
+    }
+}
+
+@media screen and (min-width: 980px) {
+    div.home-links > div {
+        padding: 10.5em 25%;
+    }
+
+    nav.know.navbar.navbar-default {
+        font-size: inherit;
+    }
+
+    .banner {
+        /*height: 80em;*/
+    }
+
+    .alliance {
+        margin: 0.5em;
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    div.home-links > div {
+        padding: 7em 25%;
+    }
+
+    .alliance.left {
+        margin-left: auto;
+    }
+
+    .alliance.right {
+        margin-right: auto;
+    }
+
+    .alliances-logos {
+        display: inline-flex;
+    }
+
+    .jumbotron p {
+        font-size: x-large;
+    }
+}

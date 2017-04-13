@@ -1,0 +1,831 @@
+.jumbotron {
+    /*background: #532F8C;*/
+    color: white;
+    padding-bottom: 0
+}
+
+.jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7;
+}
+
+.jumbotron .btn-primary:hover {
+    background: #7646c1;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.jumbotron p {
+    color: #d9ccee;
+    margin: 10% auto;
+    text-transform: uppercase;
+    font-size: initial;
+    /*max-width: 75%;*/
+}
+
+.carousel-caption {
+    top: 30%;
+}
+
+.navbar + .jumbotron {
+    margin-top: -20px;
+}
+
+.jumbotron .lang-logo {
+    display: block;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.jumbotron .lang-logo img {
+    max-width: 100%;
+}
+
+div.jumbotron {
+    padding: 1em 0px;
+}
+
+button.navbar-toggle {
+    width: 3em;
+    border: none;
+}
+
+/* NAV BAR */
+a.navbar-brand {
+    padding: initial;
+}
+
+a.navbar-brand img {
+    padding-left: 1em;
+}
+
+nav.navbar {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 5em;
+    border: none;
+    margin-top: 5em;
+    z-index: 1;
+}
+
+div.collapse.navbar-collapse {
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+    background: #0B3A4A;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar div.container-fluid {
+    padding: initial;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-bottom: 2px solid #0A3A4A;
+    height: 4em
+}
+
+.know.navbar div.container-fluid {
+    border-bottom: none;
+}
+
+.m-t-7em {
+    margin-top: 7em;
+}
+
+.m-t-5-6em {
+    margin-top: 5.6em;
+}
+
+.div-header {
+    background: #ACBDC6;
+    height: 4em;
+}
+
+.div-header > img {
+    margin-left: 1em;
+}
+
+.to-top{
+    text-align: right;
+    margin-top: -5%;
+    margin-bottom: 1em;
+}
+
+.div-footer {
+    border-top: none;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.footer-div {
+    position: relative;
+    height: 4em;
+    margin-left: 4%;
+}
+
+.footer {
+    background: url("../images/footer/bk-datos.jpg") no-repeat;
+    background-size: cover;
+    color: white;
+    padding-right: 0;
+}
+
+.footer-logo-div {
+    padding: 4%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.footer-div > a, .footer-div > span {
+    margin: 0.5em 1em 0;
+    width: 60%;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.7em;
+    font-size: initial;
+    position: absolute;
+    left: 40px;
+}
+
+.footer-div a span {
+    font-size: 1em;
+    color: white;
+}
+
+.footer-social {
+    margin: 1em 15px 1em 2%
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#follow-twitter, #follow-in {
+    margin: 1em 0;
+}
+
+#myCarousel {
+    z-index: 0;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner > .item {
+    height: 25em;
+}
+
+div.slideshow.jumbotron {
+    padding-top: 0;
+}
+
+.v-center {
+    position: absolute;
+    top: 50%;
+}
+
+.v-center.right {
+    right: 15%;
+}
+
+.v-center.left {
+    left: 15%;
+}
+
+.div-header {
+    background: #ACBDC6;
+}
+
+.div-lang {
+    float: right;
+    height: 65%;
+    width: 10em;
+}
+
+.div-lang > select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-weight: bold;
+}
+
+.footer-div > img {
+    max-height: 34px;
+    position: absolute;
+    left: 0;
+}
+
+span {
+    float: left;
+}
+
+.cont {
+    border: solid 2px #0A3A4A;
+    height: 2.6em;
+    border-left: none;
+    border-right: none;
+    width: 5.4em;
+}
+
+div.cont > div:nth-child(1) {
+    float: left;
+    position: relative;
+    height: 2em;
+}
+
+div.cont > div:nth-child(3) {
+    position: relative;
+    height: 2em;
+    z-index: 1;
+    float: left;
+}
+
+.a {
+    top: 0;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(-20deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(-20deg);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.b {
+    bottom: 0;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(20deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(20deg);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.a, .b {
+    height: 1.25em;
+    width: 0em;
+    position: absolute;
+    border-left: solid 2px #0A3A4A;
+    z-index: 0;
+    left: -4px;
+}
+
+.c {
+    margin: 0.5em 1em;
+}
+
+.d {
+    top: 0;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(20deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(20deg);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.e {
+    bottom: 0;
+    -webkit-transform: scaleX(1) scaleY(1) scaleZ(1) skewX(-20deg);
+    transform: scaleX(1) scaleY(1) scaleZ(1) skewX(-20deg);
+    -webkit-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+}
+
+.d, .e {
+    height: 1.25em;
+    width: 0;
+    position: absolute;
+    border-right: solid 2px #0A3A4A;
+    z-index: 0;
+    right: -4px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+.language-dropdown {
+    /* Size and position */
+    position: relative;
+    float: right;
+    height: 3em;
+    width: 10em;
+
+    /* Styles */
+    background: white;
+
+    outline: none;
+
+    /* Font settings */
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+
+    cursor: pointer;
+}
+
+.closed .dropdown {
+    opacity: 0;
+}
+
+.opened .dropdown {
+    opacity: 1;
+    z-index: 1;
+}
+
+span.language {
+    width: 100%;
+    height: 100%;
+    padding: 8%;
+}
+
+/* Botoncito */
+.navbar-default .navbar-nav a {
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.main.navbar-default .navbar-nav > .active > a,
+.main.navbar-default .navbar-nav > .active > a:focus,
+.main.navbar-default .navbar-nav > .active > a:hover {
+    background: #0B3A4A;
+    color: white;
+}
+
+.main.navbar-default .navbar-nav > li > a,
+.main.navbar-default .navbar-nav > li > a:focus,
+.main.navbar-default .navbar-nav > li > a:hover {
+    color: #A2BCCB;
+}
+
+.nav > li {
+    border-bottom: #2C5767 solid 1px;
+    text-align: center;
+}
+
+.language-dropdown:after {
+    content: url('../images/nav/idioma-arrow.png');
+    position: absolute;
+    right: 2em;
+    top: 0.7em;
+}
+
+.language-dropdown ul.language {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0px;
+    background: white;
+    top: 3em;
+    height: 3em;
+    list-style-type: none;
+}
+
+.language-dropdown ul.language li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body .title, body .subtitle {
+    letter-spacing: 0.2em;
+}
+
+a {
+    color: black;
+    display: block;
+}
+
+.language-dropdown ul.language li a {
+    height: 100%;
+    padding: 8%;
+}
+
+.alliance {
+    background: #F6F7F9;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 1em 0;
+}
+
+.alliance > img {
+    display: inline-block;
+}
+
+div.home-services, div.home-products {
+    background: #F6F8F9;
+}
+
+div.home-services {
+    padding-top: 5em;
+}
+
+div.home-links {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background-image: url(../images/home/foto-compromiso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin-top: 5%;
+}
+
+div.home-links > div {
+    padding: 10% 25%;
+}
+
+div.home-links > div > div {
+    margin: 1em 0;
+    padding: 5%;
+    border-radius: 0.5em;
+}
+
+div.know-us {
+    background: #ACBDC6;
+}
+
+div.contact-us {
+    background: #F6F7F9;
+}
+
+div.know-us a, div.contact-us a {
+    background: transparent;
+    font-family: raleway-bold;
+    letter-spacing: 0.15em;
+}
+
+div.commitment {
+    padding: 1em 0 0;
+    margin-right: 0;
+    display: block;
+}
+
+div.paragraph {
+    text-align: left;
+}
+
+div.section div.paragraph.orange-paragraph {
+    margin-bottom: 0.5em;
+}
+
+.paragraph {
+    font-family: raleway;
+}
+
+div.title {
+    margin-bottom: 3em;
+    font-size: medium;
+}
+
+.hp-6em {
+    padding: 0 10%;
+}
+
+hr {
+    border-top: 1px solid #F29303;
+    margin: 3em 0;
+}
+
+.alliances-logos {
+    padding: 0 20%;
+}
+
+.home-products {
+    text-align: center;
+    margin: 0;
+}
+
+.home-products > div {
+    display: block;
+    overflow: hidden;
+    padding-right: 0;
+}
+
+.home-products div:first-child div:first-child {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+.home-products > div > div {
+    padding: 3em;
+}
+
+.home-products > div img {
+    display: initial;
+    max-width: 70%;
+}
+
+.home-products div.striked-title {
+    display: inline-block;
+    padding: 0 1em;
+    position: relative;
+    font-size: 25px;
+}
+
+.striked-title:before,
+.striked-title:after {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 400%;
+}
+
+.striked-title:before {
+    right: 100%;
+}
+
+.striked-title:after {
+    left: 100%;
+}
+
+.read-more {
+    background: transparent;
+    border: 1px solid;
+    width: 10em;
+    margin: 0 auto;
+}
+
+.read-more a {
+    padding: 1em;
+}
+
+.orange-text {
+    color: #F19100;
+    padding: 0 0 1.5em;
+    font-size: x-large;
+}
+
+.banner {
+    height: 50%;
+    background-repeat: inherit;
+    margin-top: -7em;
+    text-align: center;
+}
+
+div.banner > div.title {
+    padding-top: 6em;
+    color: white;
+    font-size: 30px;
+    letter-spacing: normal;
+}
+
+/*-------- CONOCENOS --------- */
+.allies-logos {
+    margin-top:1em;
+}
+.allies-logos > img, .img-trabajo > img, .img-filosofia > img {
+    margin: auto;
+}
+
+.img-filosofia{
+    margin-bottom: 2em;
+}
+
+.orange-paragraph {
+    color: #F19100;
+}
+
+.banner.conocenos {
+    background-image: url("../images/conocenos/bk.jpg");
+}
+
+.know .navbar-nav > li {
+    border: 1px solid #0A3C46;
+    width: 18em;
+    margin-bottom: 2em;
+    height: auto;
+    border-radius: 2em;
+    background: #3B5D7C;
+    opacity: 0.7;
+}
+
+.know .navbar-nav > li.active {
+    border: none;
+    opacity: 1;
+}
+
+div.section > div.title {
+    background: white;
+    vertical-align: middle;
+    padding: 1em;
+    font-size: x-large;
+    text-align: left;
+    color: #FA9B2B;
+    margin: 0 -15px 1em;
+}
+
+div.section {
+    background: #F7F8FA;
+    padding-bottom: 4em;
+    border-bottom: 1px solid #F49102;
+}
+
+div.paragraphs {
+    padding: 10px;
+}
+
+div.section div.paragraph {
+    margin-bottom: 2em;
+}
+
+div.signature {
+    padding: 0;
+}
+
+div.signature > div.signature, div.welcome {
+    text-align: left;
+}
+
+div.welcome {
+    margin-bottom: 2em;
+}
+
+div.photo {
+    margin-bottom: 2em;
+}
+
+/*-------- SERVICIOS --------- */
+.banner.services {
+    background-image: url("../images/servicios/bk.jpg");
+    padding: 0 15% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.banner.services > div.title {
+    padding-top: 4em;
+    margin-bottom: 1em;
+}
+
+div.banner.services > div.subtitle {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+
+div.banner.services > div.paragraph, div.banner.contact > div.paragraph {
+    text-align: inherit;
+    color: white;
+}
+
+div.services:not(.banner) > div.paragraph {
+    text-transform: uppercase;
+    padding: 10% 5%;
+    text-align: center;
+    background: #fff;
+}
+
+div.services:not(.banner) > div.content {
+    background: #F7F8FA;
+    display: inline-block;
+}
+
+div.services:not(.banner) > div.content > img {
+    margin: auto;
+}
+
+.services .sub-content .orange-text.subtitle {
+    background: #fff;
+    margin: 5%;
+    padding: 5%;
+    text-transform: uppercase;
+    font-size: initial;
+    min-height: 80px;
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+.sub-content div.text {
+    margin: 0 5% 5%;
+    clear: both;
+}
+
+.services .sub-content .orange-text.subtitle > img {
+    float: left;
+    display: inline-block;
+    margin-right: 5%;
+}
+
+.services .sub-content .item-title {
+    display: inline-block;
+    margin: 5%;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 90%;
+}
+
+.services .sub-content .item-title > img {
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+}
+
+.sub-content .item .item-text {
+    margin: 0 10.5%;
+}
+
+/*-------- CONTACTO --------- */
+.result-message {
+    text-align: right;
+    font-size: initial;
+    padding: 2em 5%;
+    width: 100%;
+}
+
+.result-message.error {
+    color: red;
+}
+.result-message.success {
+    color: green;
+}
+
+.banner.contact {
+    background-image: url("../images/contacto/bk.jpg");
+    padding: 0 15% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+div.banner.contact > div.paragraph {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+div.banner.contact > div.paragraph a {
+    color: white;
+    display: inline-block;
+}
+
+div.contact #form div.button {
+    padding: 5%;
+    text-align: center;
+}
+
+div.contact #form div.button button{
+    text-transform: uppercase;
+    width: 40%;
+    padding: 3%;
+    background: #acbdc7;
+    letter-spacing: 0.2em;
+}
+
+div.contact .fields {
+    padding: 5%;
+}
+
+.contact .fields div.field {
+    padding: 1em;
+    color: #0a404c;
+    text-align: left;
+}
+
+#form{
+    background: #f7f8fa;
+}
+
+.fields .row input, textarea{
+    width: 90%;
+    line-height: 3em;
+    border: none;
+    padding: 0 5%;
+}
+
+textarea{
+    line-height:2em;
+}
+
+.mandatory{
+    padding: 5%;
+    font-style: italic;
+    text-align: right;
+}
+
+.field label {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.message-area{
+    padding:0 15px;
+}
+
+.alert{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index:9999;
+    border-radius:0px
+}
