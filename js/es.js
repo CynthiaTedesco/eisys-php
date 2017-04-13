@@ -1,344 +1,84 @@
-aLangKeys['es']['content']='Contenido';
-aLangKeys['es']['footer']='Pie';
-aLangKeys['es']['menu-inicio']='INICIO';
-aLangKeys['es']['menu-servicios']='SERVICIOS';
-aLangKeys['es']['menu-especializaciones']='ESPECIALIZACIONES';
-aLangKeys['es']['menu-conocenos']='CONOCENOS';
-aLangKeys['es']['menu-sumate']='SUMATE AL EQUIPO';
-aLangKeys['es']['menu-contactanos']='CONTACTANOS';
-aLangKeys['es']['menu-presupuestos']='PRESUPUESTO';
-aLangKeys['es']['entredichos']='ENTREDICHOS';
-
-//home
-aLangKeys['es']['our-certifications']='NUESTRAS CERTIFICACIONES';
-aLangKeys['es']['slideshow-message-1']="Lexar busca proporcionar una experiencia diferente, un abordaje innovador y personalizado de las necesidades del cliente, así como un enorme abanico de servicios de muy alta calidad."
-aLangKeys['es']['slideshow-message-2']="Para nosotros, la capacitación, el conocimiento y la calidad son la clave para satisfacer a nuestros clientes del modo en el que ellos merecen."
-aLangKeys['es']['slideshow-message-3']="En Lexar, trabajamos con pasión y esfuerzo para que las barreras lingüísticas que puedas encontrar en tu camino al éxito se conviertan en puentes de comunicación."
-
-//conocenos
-aLangKeys['es']['acerca-de']='ACERCA DE LEXAR';
-aLangKeys['es']['trayectoria']='TRAYECTORIA';
-aLangKeys['es']['forma-de-trabajo']='NUESTRA FORMA DE TRABAJO';
-
-aLangKeys['es']['acerca-de-title']='Acerca de Lexar';
-aLangKeys['es']['acerca-de-1']='Lexar es una iniciativa distinta e innovadora que surgió hace ya algunos años a partir de un proyecto personal cuyo objetivo era satisfacer una demanda específica en el ámbito de los servicios lingüísticos.';
-aLangKeys['es']['acerca-de-2']='En ese entonces, mi idea era brindarle al mundo un concepto que aún no existía: contar con una empresa que tuviera valores bien definidos; que buscara el verdadero significado que existe en las palabras que utilizamos al comunicarnos y que pudiera transmitirlo de forma precisa y eficaz; que tuviera como principales pilares el conocimiento y la capacitación constante; que tratara a sus clientes de modo diferente, de manera que ellos pudieran sentirse especiales y seguros de que sus asuntos quedarían en buenas manos; que tuviera como principal preocupación el bienestar de sus clientes y sus necesidades particulares; y que, sobre todo, hiciera un aporte significativo a la comunidad profesional de la que formara parte.';
-aLangKeys['es']['acerca-de-3']='Poco a poco, con mucho esfuerzo y dedicación, y sin perder nunca el horizonte planteado, logré plasmar lo que alguna vez fue solo un sueño en algo real y tangible; así nace Lexar, una empresa dinámica, responsable, confiable, eficaz y profesional que busca proporcionar una experiencia diferente, un abordaje innovador y personalizado de las necesidades del cliente, así como un enorme abanico de servicios de muy alta calidad.';
-aLangKeys['es']['acerca-de-4']='Lexar está formada por un grupo de profesionales con vasta experiencia en el ámbito de la traducción, la interpretación, la corrección, el subtitulado y el doblaje que se capacitó y se especializó a lo largo de todos estos años en áreas bien específicas del mercado para poder brindar las mejores soluciones lingüísticas posibles y para poder convertirnos en verdaderos puentes de comunicación.';
-aLangKeys['es']['acerca-de-5']='Buscamos una respuesta a cada problema que el cliente nos plantea, ya que trabajamos arduamente para proporcionar soluciones que se ajusten a sus necesidades, puesto que, en nuestra opinión, cada caso es único y cada cliente es diferente.';
-aLangKeys['es']['acerca-de-6']='Para nosotros, la capacitación, el conocimiento y la calidad son la clave para satisfacer a nuestros clientes del modo en el que ellos merecen; por ello, siempre estamos en busca de nuevos cursos, seminarios, conferencias, congresos, métodos, tecnologías e ideas que nos permitan alcanzar la excelencia. Según nuestra visión, la mejora constante no es solo un concepto que tratamos de poner en práctica, es un estilo de vida y de trabajo.';
-aLangKeys['es']['acerca-de-bienvenida']='Te damos la bienvenida a Lexar y esperamos que tu experiencia con nosotros sea satisfactoria, especial e inolvidable.';
-aLangKeys['es']['acerca-de-gracias']='¡Gracias por elegirnos!';
-aLangKeys['es']['acerca-de-valeria']='Valeria Cardozo';
-aLangKeys['es']['acerca-de-directora']='Directora';
-aLangKeys['es']['acerca-de-filosofia-title']='Filosofía Lexar';
-aLangKeys['es']['acerca-de-filosofia']='Lexar es una propuesta innovadora creada por profesionales con vasta experiencia en el mundo de la traducción, la interpretación, la corrección, el subtitulado y el doblaje. Creemos que el conocimiento y la capacitación son nuestros pilares, los que nos permiten acercarte las mejores propuestas y lograr el resultado final que estás buscando. En Lexar, trabajamos con pasión y esfuerzo para que las barreras lingüísticas que puedas encontrar en tu camino al éxito se conviertan en puentes de comunicación.';
-
-aLangKeys['es']['trayectoria-title']='Trayectoria';
-aLangKeys['es']['trayectoria-1']='Desde mis inicios, consideré que la capacitación sería la que me abriría un sinfín de puertas y la que me permitiría brindar un servicio amplio y de excelente calidad. Por ello, seleccioné las carreras que me eran más afines y elegí las mejores instituciones para formarme. Así, primero me gradué de Traductora Pública de Inglés en la Universidad de Buenos Aires; más tarde, estudié Interpretación de Conferencias en el instituto ExcelTi; luego, cursé la carrera de Corrector Internacional de Textos en Lengua Española en la Fundación Litterae y, por último, realicé la Especialización en Subtitulado en el Colegio de Traductores Públicos de la Ciudad de Buenos Aires.';
-aLangKeys['es']['trayectoria-2']='Desde ese momento de crear Lexar, busqué colegas de esas profesiones que contaran con amplia experiencia y que, sobre todo, compartieran mis mismos valores. De ese modo, se creó un excelente equipo de trabajo coordinado por mí que es el alma de Lexar.';
-aLangKeys['es']['trayectoria-3']='En la actualidad, contamos con más de diez años de experiencia en el mundo de la traducción, la interpretación, la corrección, el subtitulado y el doblaje. Además, nos concentramos y nos formamos en áreas bien específicas del mercado porque, en Lexar, creemos que la especialización es fundamental para poder brindar un servicio personalizado y de la más alta calidad.';
-aLangKeys['es']['trayectoria-4']='Nuestras áreas de especialización son las ciencias jurídicas; la economía y las finanzas; las ciencias políticas y la economía política; los frutos secos y la agricultura; los bienes raíces y el sector inmobiliario; la tecnología de la información (TI) y las nuevas tecnologías; así como los recursos humanos. De todos modos, contamos con el aporte de excelentes colaboradores de otras áreas de especialización y de otros idiomas (italiano, portugués, francés, alemán, chino, japonés, ruso y hebreo, entre otros) que nos ayudan cuando nos solicitan un servicio que no está dentro de nuestra esfera de competencia.';
-aLangKeys['es']['trayectoria-5']='Asimismo, en Lexar, creemos en la mejora constante, por lo que participamos en cursos de formación, seminarios, charlas, debates, conferencias y congresos que contribuyen a que podamos seguir capacitándonos y a estar siempre actualizados e informados.';
-aLangKeys['es']['trayectoria-6']='Además, realizamos nuestro aporte correspondiente a la comunidad profesional a la que pertenecemos (uno de nuestros principales valores) porque consideramos que entre todos podemos hacer que se respete y se difunda nuestro trabajo, y que logre alcanzar el prestigio que merece. Por consiguiente, me desempeño como Perito de la Justicia y soy miembro del Colegio de Traductores Públicos de la Ciudad de Buenos Aires.';
-aLangKeys['es']['trayectoria-7']='Lexar ayudó a numerosas empresas, a organismos nacionales e internacionales y a particulares a encontrar la solución lingüística que más se ajustaba a sus necesidades, y, gracias a ella, lograron concretar sus proyectos o alcanzar el éxito que tanto deseaban.';
-aLangKeys['es']['trayectoria-8']='En Lexar, los clientes encuentran el aliado perfecto para poder alcanzar esos sueños o proyectos de toda una vida. Estamos aquí para que las barreras lingüísticas no representen un problema para vos, estamos aquí para crear los puentes de comunicación que necesitás para que esos sueños se hagan realidad.';
-
-aLangKeys['es']['trayectoria-footer']='Lexar está a la vanguardia de las nuevas tecnologías y de las herramientas que hacen que podamos brindar un servicio mejor, más rápido y de mayor calidad.';
-aLangKeys['es']['forma-de-trabajo-title']='Nuestra forma de trabajo';
-aLangKeys['es']['forma-de-trabajo-1']='La forma en la que trabajamos es lo que nos caracteriza y nos define. Cada vez que un cliente nos contacta, desarrollamos una solución lingüística especial y personalizada que solo se ajusta a sus necesidades, puesto que pensamos que cada cliente es distinto y único, a quien cuidamos y tratamos de un modo particular para que se sienta satisfecho y feliz con la experiencia que le proponemos.';
-aLangKeys['es']['forma-de-trabajo-2']='En Lexar, consideramos que el diálogo fluido con el cliente, las consultas y el trabajo conjunto son fundamentales para entender cabalmente qué necesita, cuál es su objetivo, qué espera obtener y con qué tiempos cuenta para hacerlo. Solo de esa forma podremos brindar el conocimiento, las herramientas, la flexibilidad, la eficiencia y la calidad que merece. Juntos determinamos la necesidad de comunicación para poder crear la mejor solución ideada específicamente para él.';
-aLangKeys['es']['forma-de-trabajo-3']='Para Lexar, el tiempo de nuestros clientes es muy valioso, por lo que siempre acordamos juntos un plazo de trabajo que sea razonable y adecuado para ambos, y que no atente contra la calidad del servicio que brindamos, que es lo más importante. Una vez establecido ese plazo, haremos el esfuerzo que sea necesario y trabajaremos con ahínco para cumplir con sus expectativas. Lexar asume el compromiso con todos sus clientes de entregar puntualmente un producto final de la más alta calidad, según los estándares del mercado.';
-aLangKeys['es']['forma-de-trabajo-4']='Asimismo, dado que deseamos que todos nuestros clientes tengan éxito y puedan concretar sus proyectos laborales, profesionales o personales, contamos con una red de expertos técnicos de las distintas áreas de especialización con las que trabajamos que nos asesoran toda vez que surge una duda no lingüística sobre algún tema. De esta forma, les garantizamos a nuestros clientes que el producto que recibirán (ya sea una traducción, una interpretación, una corrección, un subtitulado o un doblaje) será adecuado y preciso.';
-aLangKeys['es']['forma-de-trabajo-5']='Además, Lexar está a la vanguardia de las nuevas tecnologías y de las herramientas que hacen que podamos brindar un servicio mejor, más rápido y de mayor calidad. Contamos con todos los programas informáticos y con todos los recursos tecnológicos necesarios para idear soluciones lingüísticas únicas.';
-aLangKeys['es']['forma-de-trabajo-6']='Cabe destacar que para Lexar la investigación y el estudio continuo de las áreas de especialización es clave para crear las mejores soluciones lingüísticas que sus clientes necesitan. Lexar no solo traduce o interpreta palabras, sino que logra transmitir el verdadero significado de estas y toda la cultura que se esconde en ellas.';
-
-aLangKeys['es']['forma-de-trabajo-footer']='La mejora constante no es solo un concepto que tratamos de poner en práctica, es un estilo de vida y de trabajo.';
-
-aLangKeys['es']['solicita-presupuesto']='SOLICITÁ TU PRESUPUESTO';
-
-//servicios
-aLangKeys['es']['servicios']='NUESTROS SERVICIOS';
-aLangKeys['es']['servicios-traduccion-titulo']='Traducción';
-aLangKeys['es']['servicios-traduccion-menu']='Traducción';
-aLangKeys['es']['servicios-traduccion-1']='Traducir consiste en expresar en un idioma lo que está escrito en otro. No supone únicamente convertir palabras a otro idioma, sino que se debe interpretar, en el sentido amplio del término, el verdadero significado que esas palabras tienen y la cultura que esconden para luego expresarlas de la mejor manera posible en el idioma de llegada.';
-aLangKeys['es']['servicios-traduccion-2']='Así, se puede traducir un sinfín de documentos de los más variados temas, de manera que el hablante de un determinado idioma pueda entender sin dificultades lo que está escrito en otro.';
-aLangKeys['es']['servicios-traduccion-3']='Existen dos tipos de traducciones: públicas y no públicas. Las primeras son aquellas que se necesitan toda vez que se presenta un documento que está escrito en un idioma distinto al idioma nacional ante las reparticiones, entidades u organismos judiciales y administrativos de un Estado.';
-aLangKeys['es']['servicios-traduccion-4']='En la Argentina, las traducciones públicas deben ser confeccionadas por traductores públicos matriculados y legalizadas en el consejo profesional afín que regule la matrícula de ese traductor, de acuerdo con lo establecido en la Ley 20305. Nuestra directora se encuentra matriculada en el Colegio de Traductores Públicos de la Ciudad de Buenos Aires, y es quien firma y sella todas las traducciones públicas que realizamos. Además, para conveniencia de nuestros clientes, entregamos las traducciones públicas ya legalizadas ante ese organismo.';
-aLangKeys['es']['servicios-traduccion-5']='Los siguientes son algunos ejemplos de traducciones públicas:';
-aLangKeys['es']['servicios-traduccion-item-1']='Partidas (nacimiento, matrimonio, defunción, etcétera), certificados y demás documentos personales.';
-aLangKeys['es']['servicios-traduccion-item-2']='Programas de estudio, certificados analíticos, diplomas y demás documentos relacionados con la educación.';
-aLangKeys['es']['servicios-traduccion-item-3']='Poderes, escrituras, testamentos, actas y demás documentos notariales.';
-aLangKeys['es']['servicios-traduccion-item-4']='Papeles de comercio, contratos, balances, estatutos, actas de asamblea o de directorio y demás documentos societarios.';
-aLangKeys['es']['servicios-traduccion-item-5']='Estudios y documentos técnicos y científicos; patentes de invención; sentencias; expedientes judiciales; exhortos; oficios y demás documentos de índole similar.';
-aLangKeys['es']['servicios-traduccion-6']='Las traducciones sin carácter público son aquellas que no deben estar confeccionadas por traductores públicos ni legalizadas por un consejo profesional afín. Son las que no deben presentarse ante ninguna repartición, entidad u organismo judicial o administrativo del Estado. Solo se realizan para poder entender qué dice un determinado documento que está en un idioma extranjero que se desconoce. Algunos ejemplos de traducciones no públicas son los libros, las cartas, las propuestas comerciales, las presentaciones de negocios, los poemas y los manuales, entre muchos otros.';
-aLangKeys['es']['servicios-traduccion-footer']='Lexar no solo traduce o interpreta palabras, sino que logra transmitir el verdadero significado de estas y toda la cultura que se esconde en ellas.';
-
-aLangKeys['es']['servicios-interpretacion-titulo']='Interpretación';
-aLangKeys['es']['servicios-interpretacion-menu']='Interpretación';
-aLangKeys['es']['servicios-interpretacion-1']='Interpretar, en el sentido estricto del término, supone explicar o declarar oralmente un mensaje de un idioma a otro. Su principal objetivo es permitir la comunicación entre personas que hablan lenguas disímiles. A continuación, explicamos los diferentes tipos de servicios de interpretación que brindamos, les aconsejamos a nuestros clientes que nos consulten para determinar cuál es el que se ajusta mejor a sus necesidades.';
-aLangKeys['es']['servicios-interpretacion-consecutiva-titulo']='Interpretación consecutiva';
-aLangKeys['es']['servicios-interpretacion-consecutiva-1']='En este tipo de interpretación, el orador emite su discurso y luego le permite al intérprete realizar la traducción correspondiente de lo mencionado. El intérprete puede intervenir después de cada frase, para lo que el orador debe realizar pausas breves, o después del discurso completo del orador, para lo cual el intérprete deberá tomar notas, debido a la extensión del discurso. La elección de una opción u otra dependerá del contexto y de las necesidades específicas del cliente.';
-aLangKeys['es']['servicios-interpretacion-consecutiva-2']='Lexar recomienda usar la interpretación consecutiva en conferencias telefónicas, conferencias de prensa, juicios, casamientos (ceremonia civil y religiosa), entrevistas, discursos, presentaciones, ponencias, negociaciones y reuniones de negocios, entre otros.';
-aLangKeys['es']['servicios-interpretacion-simultanea-titulo']='Interpretación simultánea';
-aLangKeys['es']['servicios-interpretacion-simultanea-1']='En este tipo de interpretación, se traslada un discurso hablado de un idioma a otro de forma simultánea, se interpreta lo que el orador dice mientras este lo dice, lo que permite que las conferencias multilingües sean tan fluidas y rápidas como si fueran en una única lengua. ';
-aLangKeys['es']['servicios-interpretacion-simultanea-2']='Para cada combinación o par de idiomas, se necesitan dos intérpretes (simultáneos o de conferencia) trabajando juntos, ya que, según estudios científicos, una persona no puede interpretar más de veinte minutos seguidos, debido al enorme estrés que esta actividad representa. ';
-aLangKeys['es']['servicios-interpretacion-simultanea-3']='En este tipo de interpretación, se necesitarán algunas herramientas tecnológicas que deberán contratarse para poder brindar el servicio de manera adecuada, como una cabina (donde se encontrarán los intérpretes aislados del público), auriculares (para los intérpretes y para los destinatarios del servicio) y micrófonos (para los intérpretes y para el orador). ';
-aLangKeys['es']['servicios-interpretacion-simultanea-4']='Lexar recomienda usar la interpretación simultánea en conferencias, congresos, seminarios y presentaciones con una audiencia numerosa, y en retransmisiones televisivas, entre otros.';
-aLangKeys['es']['servicios-interpretacion-acompaniamiento-titulo']='Interpretación de acompañamiento';
-aLangKeys['es']['servicios-interpretacion-acompaniamiento-1']='Este tipo de interpretación es un servicio para personas de negocios que necesitan ayuda lingüística en viajes de negocio, visitas a fábricas o plantas de procesamiento, y reuniones de trabajo, entre otros. ';
-aLangKeys['es']['servicios-interpretacion-acompaniamiento-2']='Lexar tiene amplia experiencia en este tipo de interpretación que resulta fundamental para que las negociaciones lleguen a buen puerto. Ofrecemos este servicio en toda la Argentina, en países limítrofes (Uruguay, Chile, Paraguay, Brasil, Bolivia y Perú) y en el resto del mundo. ';
-aLangKeys['es']['servicios-interpretacion-acompaniamiento-3']='No pongas en riesgo tus negocios, solicitá la ayuda de Lexar. ';
-aLangKeys['es']['servicios-interpretacion-footer']='Lexar no solo traduce o interpreta palabras, sino que logra transmitir el verdadero significado de estas y toda la cultura que se esconde en ellas.';
-
-aLangKeys['es']['servicios-correccion-titulo']='Corrección';
-aLangKeys['es']['servicios-correccion-menu']='Corrección';
-aLangKeys['es']['servicios-correccion-1']='En Lexar, creemos que los idiomas son una de las expresiones más valiosas de la cultura de los países, por eso debemos cuidarlos y utilizarlos correctamente. Muchas veces, no conocemos todas las normas que tiene una determinada lengua y esto nos lleva a cometer errores al escribirlo o al hablarlo que quisiéramos evitar.';
-aLangKeys['es']['servicios-correccion-2']='Lexar considera que un documento bien escrito refleja la seriedad, la responsabilidad, la dedicación y el profesionalismo de quien lo redactó, pero, muchas veces, esa persona no tiene tiempo suficiente para corregir el documento o está tan concentrada en el aspecto técnico del texto que se filtran algunos errores del lenguaje. ';
-aLangKeys['es']['servicios-correccion-3']='Por ello, Lexar ofrece una gama de servicios de corrección para que los documentos sean presentados sin errores de ningún tipo. Lexar se compromete a ser el guardián del buen uso de los idiomas en tus textos.';
-aLangKeys['es']['servicios-correccion-4']='Los siguientes son los distintos servicios de corrección que te ofrecemos:';
-aLangKeys['es']['servicios-correccion-item-1']='Corrección de estilo.';
-aLangKeys['es']['servicios-correccion-item-2']='Corrección ortográfica, gramatical y sintáctica.';
-aLangKeys['es']['servicios-correccion-item-3']='Corrección ortotipográfica.';
-aLangKeys['es']['servicios-correccion-item-4']='Corrección de traducciones.';
-aLangKeys['es']['servicios-correccion-5']='Lexar cuenta con el aval de la Fundación Litterae, institución dedicada a la lengua española, ya que Valeria Cardozo, su directora, es egresada de la carrera de Corrector Internacional de Textos en Lengua Española.';
-aLangKeys['es']['servicios-correccion-footer']='Lexar no solo traduce o interpreta palabras, sino que logra transmitir el verdadero significado de estas y toda la cultura que se esconde en ellas.';
-
-aLangKeys['es']['servicios-subtitulado-titulo']='Subtitulado y doblaje';
-aLangKeys['es']['servicios-subtitulado-menu']='Subtitulado';
-aLangKeys['es']['servicios-subtitulado-1']='Lexar brinda servicios de doblaje, subtitulado, sincronización, temporizado y transcripción para productoras cinematográficas, distribuidoras, festivales de cine, empresas, organismos, instituciones y particulares.';
-aLangKeys['es']['servicios-subtitulado-2']='Algunos ejemplos de lo que ofrecemos son videos empresariales, videos institucionales, documentales, películas, series, cortos, guiones para rodaje y listas de diálogo para doblaje, entre otros. ';
-aLangKeys['es']['servicios-subtitulado-footer']='Lexar no solo traduce o interpreta palabras, sino que logra transmitir el verdadero significado de estas y toda la cultura que se esconde en ellas.';
-
-//especializaciones 
-aLangKeys['es']['especializaciones-footer']='Cada caso es único y cada cliente es diferente.';
-aLangKeys['es']['especializaciones']='ESPECIALIZACIONES';
-aLangKeys['es']['especializaciones-titulo']='ÁREAS DE ESPECIALIZACIÓN';
-aLangKeys['es']['especializaciones-1']='En Lexar, nos concentramos y nos formamos en áreas bien específicas del mercado porque creemos que la especialización es fundamental para poder brindarles un servicio personalizado y de la más alta calidad a nuestros clientes.';
-aLangKeys['es']['especializaciones-2']='A continuación, mencionamos las áreas de especialización con las que trabajamos:';
-aLangKeys['es']['especializaciones-juridicas']='Ciencias jurídicas';
-aLangKeys['es']['especializaciones-juridicas-1']='Partidas (nacimiento, matrimonio, defunción, etcétera).';
-aLangKeys['es']['especializaciones-juridicas-2']='Certificados y otros documentos personales.';
-aLangKeys['es']['especializaciones-juridicas-3']='Poderes.';
-aLangKeys['es']['especializaciones-juridicas-4']='Escrituras.';
-aLangKeys['es']['especializaciones-juridicas-5']='Testamentos.';
-aLangKeys['es']['especializaciones-juridicas-6']='Sucesiones.';
-aLangKeys['es']['especializaciones-juridicas-7']='Actas de asamblea y de directorio.';
-aLangKeys['es']['especializaciones-juridicas-8']='Contratos.';
-aLangKeys['es']['especializaciones-juridicas-9']='Boletos de compraventa.';
-aLangKeys['es']['especializaciones-juridicas-10']='Estatutos.';
-aLangKeys['es']['especializaciones-juridicas-11']='Declaraciones juradas.';
-aLangKeys['es']['especializaciones-juridicas-12']='Legislaciones.';
-aLangKeys['es']['especializaciones-juridicas-13']='Normativas.';
-aLangKeys['es']['especializaciones-juridicas-14']='Reglamentaciones.';
-aLangKeys['es']['especializaciones-juridicas-15']='Leyes.';
-aLangKeys['es']['especializaciones-juridicas-16']='Decretos.';
-aLangKeys['es']['especializaciones-juridicas-17']='Proyectos de ley.';
-aLangKeys['es']['especializaciones-juridicas-18']='Sentencias.';
-aLangKeys['es']['especializaciones-juridicas-19']='Expedientes judiciales.';
-aLangKeys['es']['especializaciones-juridicas-20']='Exhortos.';
-aLangKeys['es']['especializaciones-juridicas-21']='Oficios.';
-aLangKeys['es']['especializaciones-juridicas-22']='Otros.';
-
-aLangKeys['es']['especializaciones-finanzas']='Economía y finanzas';
-aLangKeys['es']['especializaciones-finanzas-1']='Papeles de comercio,';
-aLangKeys['es']['especializaciones-finanzas-2']='contratos,';
-aLangKeys['es']['especializaciones-finanzas-3']='propuestas comerciales,';
-aLangKeys['es']['especializaciones-finanzas-4']='pólizas,';
-aLangKeys['es']['especializaciones-finanzas-5']='declaraciones juradas,';
-aLangKeys['es']['especializaciones-finanzas-6']='estados contables,';
-aLangKeys['es']['especializaciones-finanzas-7']='inventarios,';
-aLangKeys['es']['especializaciones-finanzas-8']='libros contables,';
-aLangKeys['es']['especializaciones-finanzas-9']='informes financieros,';
-aLangKeys['es']['especializaciones-finanzas-10']='informes crediticios,';
-aLangKeys['es']['especializaciones-finanzas-11']='informes de auditoría,';
-aLangKeys['es']['especializaciones-finanzas-12']='informes anuales,';
-aLangKeys['es']['especializaciones-finanzas-13']='informes de rendimiento,';
-aLangKeys['es']['especializaciones-finanzas-14']='normas contables,';
-aLangKeys['es']['especializaciones-finanzas-15']='presentaciones,';
-aLangKeys['es']['especializaciones-finanzas-16']='extractos bancarios,';
-aLangKeys['es']['especializaciones-finanzas-17']='documentos bancarios,';
-aLangKeys['es']['especializaciones-finanzas-18']='libros,';
-aLangKeys['es']['especializaciones-finanzas-19']='artículos,';
-aLangKeys['es']['especializaciones-finanzas-20']='ensayos,';
-aLangKeys['es']['especializaciones-finanzas-21']='otros.';
-
-aLangKeys['es']['especializaciones-politica']='Ciencias políticas y economía política';
-aLangKeys['es']['especializaciones-politica-1']='Libros,';
-aLangKeys['es']['especializaciones-politica-2']='ensayos,';
-aLangKeys['es']['especializaciones-politica-3']='artículos,';
-aLangKeys['es']['especializaciones-politica-4']='fórmulas,';
-aLangKeys['es']['especializaciones-politica-5']='presentaciones,';
-aLangKeys['es']['especializaciones-politica-6']='ponencias,';
-aLangKeys['es']['especializaciones-politica-7']='investigaciones,';
-aLangKeys['es']['especializaciones-politica-8']='tesis,';
-aLangKeys['es']['especializaciones-politica-9']='trabajos académicos,';
-aLangKeys['es']['especializaciones-politica-10']='documentos de trabajo,';
-aLangKeys['es']['especializaciones-politica-11']='otros.';
-
-aLangKeys['es']['especializaciones-frutos']='Frutos secos y agricultura';
-aLangKeys['es']['especializaciones-frutos-1']='Presupuestos,';
-aLangKeys['es']['especializaciones-frutos-2']='contratos,';
-aLangKeys['es']['especializaciones-frutos-3']='manuales de implementos,';
-aLangKeys['es']['especializaciones-frutos-4']='manuales de herramientas,';
-aLangKeys['es']['especializaciones-frutos-5']='manuales de maquinarias,';
-aLangKeys['es']['especializaciones-frutos-6']='estudios de suelo,';
-aLangKeys['es']['especializaciones-frutos-7']='estudios de laboratorio,';
-aLangKeys['es']['especializaciones-frutos-8']='estudios de clima,';
-aLangKeys['es']['especializaciones-frutos-9']='propuestas,';
-aLangKeys['es']['especializaciones-frutos-10']='documentos de importación,';
-aLangKeys['es']['especializaciones-frutos-11']='documentos de exportación,';
-aLangKeys['es']['especializaciones-frutos-12']='estudios de riego,';
-aLangKeys['es']['especializaciones-frutos-13']='patentes,';
-aLangKeys['es']['especializaciones-frutos-14']='documentos técnicos,';
-aLangKeys['es']['especializaciones-frutos-15']='artículos,';
-aLangKeys['es']['especializaciones-frutos-16']='ensayos,';
-aLangKeys['es']['especializaciones-frutos-17']='investigaciones,';
-aLangKeys['es']['especializaciones-frutos-18']='otros.';
-
-aLangKeys['es']['especializaciones-inmobiliario']='Bienes raíces y sector inmobiliario';
-aLangKeys['es']['especializaciones-inmobiliario-1']='Contratos de compraventa,';
-aLangKeys['es']['especializaciones-inmobiliario-2']='contratos,';
-aLangKeys['es']['especializaciones-inmobiliario-3']='escrituras,';
-aLangKeys['es']['especializaciones-inmobiliario-4']='propuestas,';
-aLangKeys['es']['especializaciones-inmobiliario-5']='reservas,';
-aLangKeys['es']['especializaciones-inmobiliario-6']='proyectos de desarrollo,';
-aLangKeys['es']['especializaciones-inmobiliario-7']='diseños,';
-aLangKeys['es']['especializaciones-inmobiliario-8']='manuales de construcción,';
-aLangKeys['es']['especializaciones-inmobiliario-9']='otros.';
-
-aLangKeys['es']['especializaciones-it']='Tecnología de la información (TI) y nuevas tecnologías';
-aLangKeys['es']['especializaciones-it-1']='Páginas web;';
-aLangKeys['es']['especializaciones-it-2']='aplicaciones móviles;';
-aLangKeys['es']['especializaciones-it-3']='videojuegos;';
-aLangKeys['es']['especializaciones-it-4']='programas informáticos (<i>software</i>);';
-aLangKeys['es']['especializaciones-it-5']='manuales de gestión de TI;';
-aLangKeys['es']['especializaciones-it-6']='manuales de hardware;';
-aLangKeys['es']['especializaciones-it-7']='manuales de instalación;';
-aLangKeys['es']['especializaciones-it-8']='políticas;';
-aLangKeys['es']['especializaciones-it-9']='procedimientos;';
-aLangKeys['es']['especializaciones-it-10']='instructivos;';
-aLangKeys['es']['especializaciones-it-11']='tutoriales;';
-aLangKeys['es']['especializaciones-it-12']='tesis;';
-aLangKeys['es']['especializaciones-it-13']='artículos;';
-aLangKeys['es']['especializaciones-it-14']='otros.';
-
-aLangKeys['es']['especializaciones-rrhh']='Recursos humanos';
-aLangKeys['es']['especializaciones-rrhh-1']='Presentaciones,';
-aLangKeys['es']['especializaciones-rrhh-2']='contratos de trabajo,';
-aLangKeys['es']['especializaciones-rrhh-3']='manuales de capacitación,';
-aLangKeys['es']['especializaciones-rrhh-4']='documentos de incentivo,';
-aLangKeys['es']['especializaciones-rrhh-5']='códigos de vestimenta,';
-aLangKeys['es']['especializaciones-rrhh-6']='códigos de comportamiento,';
-aLangKeys['es']['especializaciones-rrhh-7']='códigos de ética,';
-aLangKeys['es']['especializaciones-rrhh-8']='capacitaciones,';
-aLangKeys['es']['especializaciones-rrhh-9']='lineamientos,';
-aLangKeys['es']['especializaciones-rrhh-10']='normativas,';
-aLangKeys['es']['especializaciones-rrhh-11']='cartas de presentación,';
-aLangKeys['es']['especializaciones-rrhh-12']='<i>curriculum vitae,</i>';
-aLangKeys['es']['especializaciones-rrhh-13']='telegramas de despido,';
-aLangKeys['es']['especializaciones-rrhh-14']='acuerdos de compensación,';
-aLangKeys['es']['especializaciones-rrhh-15']='acuerdos de indemnización,';
-aLangKeys['es']['especializaciones-rrhh-16']='otros.';
-
-//presupuesto 
-aLangKeys['es']['presupuestos']='QUOTES';
-aLangKeys['es']['solicita']='SOLICITÁ TU PRESUPUESTO';
-aLangKeys['es']['obligatorios']='*Campos obligatorios';
-aLangKeys['es']['completa']='1. COMPLETÁ CON TUS DATOS DE CONTACTO';
-aLangKeys['es']['selecciona']='2. SELECCIONÁ EL TIPO DE SERVICIO';
-aLangKeys['es']['nombre-apellido']='Nombre y apellido*';
-aLangKeys['es']['telefono-fijo']='Teléfono fijo';
-aLangKeys['es']['telefono-movil']='Teléfono móvil';
-aLangKeys['es']['email']='Correo electrónico*';
-aLangKeys['es']['seleccion-traduccion']='Traducción';
-aLangKeys['es']['seleccion-interpretacion']='Interpretación';
-aLangKeys['es']['seleccion-correccion']='Corrección';
-aLangKeys['es']['seleccion-subtitulado']='Subtitulado y Doblaje';
-aLangKeys['es']['buscar-archivo']='Buscar archivo';
-aLangKeys['es']['enviar']='ENVIAR';
-aLangKeys['es']['cancelar']='CANCELAR';
-aLangKeys['es']['idioma-origen']='Idioma de origen*';
-aLangKeys['es']['idioma-llegada']='Idioma de llegada*';
-aLangKeys['es']['comentarios']='Comentarios';
-aLangKeys['es']['plazo-entrega']='Plazo de entrega';
-aLangKeys['es']['plazo-entrega-obligatorio']='Plazo de entrega*';
-aLangKeys['es']['idioma']='Idioma*';
-aLangKeys['es']['si']='Sí';
-aLangKeys['es']['no']='No';
-aLangKeys['es']['nose']='No sé';
-
-//presupuesto traduccion
-aLangKeys['es']['cantidad-palabras']='Cantidad de palabras u hojas';
-aLangKeys['es']['formato-entrega']='Formato de entrega';
-aLangKeys['es']['es-publica']='¿Traducción pública o no pública?*';
-aLangKeys['es']['subida']='Subí el archivo que necesitás traducir';
-
-//presupuesto interpretacion
-aLangKeys['es']['fecha-interpretacion']='Fecha de la interpretación*';
-aLangKeys['es']['tipo-interpretacion']='Tipo de interpretación*';
-aLangKeys['es']['tipo-interpretacion-1']='Consecutiva';
-aLangKeys['es']['tipo-interpretacion-2']='Simultánea';
-aLangKeys['es']['tipo-interpretacion-3']='Acompañamiento';
-aLangKeys['es']['horas-interpretacion']='Horas de interpretación*';
-aLangKeys['es']['lugar-interpretacion']='Lugar de la interpretación*';
-aLangKeys['es']['etiqueta-interpretacion']='Código de vestimenta';
-
-//presupuesto correccion 
-aLangKeys['es']['tipo-correccion'] = 'Tipo de corrección*';
-aLangKeys['es']['tipo-correccion-1'] = 'De estilo';
-aLangKeys['es']['tipo-correccion-2'] = 'Ortográfica, gramatical y sintáctica';
-aLangKeys['es']['tipo-correccion-3'] = 'Ortotipográfica';
-aLangKeys['es']['tipo-correccion-4'] = 'De traducciones';
-aLangKeys['es']['cantidad-matrices']='Cantidad de hojas, palabras o matrices';
-aLangKeys['es']['formato-documento']='Formato del documento*';
-aLangKeys['es']['subir-archivo-correccion']='Subir el archivo';
-
-//presupuesto subtitulado
-aLangKeys['es']['doblaje-subtitulado']='Doblaje o subtitulado*';
-aLangKeys['es']['doblaje-subtitulado-1']='Doblaje';
-aLangKeys['es']['doblaje-subtitulado-2']='Subtitulado';
-aLangKeys['es']['duracion-video']='Duración del video*';
-aLangKeys['es']['subtitulado-formato-entrega']='Formato de entrega*';
-aLangKeys['es']['guion-subtitulado']='Cantidad de palabras (guion escrito)';
-aLangKeys['es']['sincronizacion']='Sincronización';
-aLangKeys['es']['temporizacion']='Temporización';
-aLangKeys['es']['subir-video']='Subir el video o el archivo';
-
-//contacto
-aLangKeys['es']['contacto-esperamos-tu-consulta']='ESPERAMOS TU CONSULTA';
-aLangKeys['es']['contacto-mensaje']='Mensaje';
-
-//empleo
-aLangKeys['es']['sumate-queres']='¿QUERÉS SER PARTE DEL EQUIPO DE LEXAR?';
-aLangKeys['es']['sumate-parrafo']='Si sos profesional independiente de la traducción, la interpretación, la corrección, el subtitulado o el doblaje y querés sumarte a <b>Lexar</b> como colaborador externo, envianos tu <i>curriculum vitae</i> a <a class="email-link" href="mailto:sumate@lexar.com.ar">sumate@lexar.com.ar</a>. En el correo, aclaranos cuáles son tus áreas de especialización y el par de idiomas con el que trabajás. También podés completar el formulario que aparece a continuación:';
-aLangKeys['es']['sumate-telefono']='Teléfono';
-aLangKeys['es']['sumate-mensaje']='Mensaje';
-aLangKeys['es']['sumate-profesion']='Profesión';
-aLangKeys['es']['sumate-idioma-trabajo']='Idiomas de trabajo';
-aLangKeys['es']['sumate-especializacion']='Áreas de especialización';
-aLangKeys['es']['sumate-cv']='Subir tu <i>curriculum vitae</i>';
-
-//radio
-aLangKeys['es']['escucha']='ESCUCHÁ <i>ENTREDICHOS</i>';
-aLangKeys['es']['radio-1']='El programa de radio oficial del Colegio de Traductores Públicos de la Ciudad de Buenos Aires.';
-aLangKeys['es']['radio-2']='Un programa dedicado a difundir la profesión del traductor y el uso correcto del idioma español.';
-aLangKeys['es']['dia']='Martes';
-aLangKeys['es']['hora']='de 19.00 a 20.00';
-aLangKeys['es']['que-radio']='por <b>FM Radio Palermo 93.9</b>';
-aLangKeys['es']['tambien-en']='También en';
-aLangKeys['es']['conducen']='Conducen:';
-aLangKeys['es']['quienes-conducen']='Valeria Cardozo, Virginia Rubiolo y Damián Santilli.';
-aLangKeys['es']['radio-social']='/EntredichosOK';
-
-aLangKeys['es']['message-notification']="Su mensaje fue enviado con éxito.";
-aLangKeys['es']['message-notification-failed']="Su mensaje no pudo ser enviado.";
-aLangKeys['es']['message-notification-security']="El o los archivos que desea enviar son potencialmente peligrosos.";
-aLangKeys['es']['tooltip']="La traducción pública es aquella que debe presentarse ante reparticiones, entidades u organismos judiciales o administrativos y que debe estar legalizada por el CTPCBA.";
-aLangKeys['es']['publicado']="Publicado el";
-aLangKeys['es']['visitas']="visitas";
-
-aLangKeys['es']['abortar']="Abortar";
-aLangKeys['es']['IE-warning']="Usted está accediendo a Lexar mediante Internet Explorer. Algunas secciones pueden no funcionar correctamente.";
-aLangKeys['es']['warning']="¡Atención!";
-aLangKeys['es']['canal']="Para ver más programas, hacé clic <a href='https://www.youtube.com/channel/UC0k7cSxwAvvKRUrwhC3bjQA' target='_blank'>aquí</a>";
+aLangKeys['es']['nav.home']='INICIO';
+aLangKeys['es']['nav.know.us']='CONOCENOS';
+aLangKeys['es']['nav.know.us.about']='ACERCA DE EISYS';
+aLangKeys['es']['nav.know.us.philosophy']='FILOSOFÍA EISYS';
+aLangKeys['es']['nav.know.us.background']='TRAYECTORIA';
+aLangKeys['es']['nav.know.us.working']='NUESTRA FORMA DE TRABAJO';
+aLangKeys['es']['nav.know.us.allies']='NUESTROS ALIADOS COMERCIALES';
+aLangKeys['es']['nav.services']='SERVICIOS';
+aLangKeys['es']['nav.contact.us']='CONTACTANOS';
+aLangKeys['es']['caption1']='Creemos que debemos tener una relación cercana con el cliente, fundada en el entendimiento profundo de sus necesidades.';
+aLangKeys['es']['caption2']='Le damos un trato preferencial, personalizado y profesional a cada uno de nuestros clientes.';
+aLangKeys['es']['caption3']='Brindamos una solución especial, flexible, escalable y de alta calidad que se ajusta a la realidad diaria de nuestros clientes.';
+aLangKeys['es']['caption4']='Eisys es una empresa formada por profesionales que trabajan con pasión y esfuerzo.';
+aLangKeys['es']['caption5']='El conocimiento, la capacitación continua y la experiencia son nuestros más preciados activos.';
+aLangKeys['es']['caption6']='Somos la única empresa de la Argentina que cuenta con especialistas certificados en Oracle WebCenter.';
+aLangKeys['es']['commitment.title']='COMPROMISO EISYS';
+aLangKeys['es']['commitment.text']='En Eisys, consideramos que el tiempo de nuestros clientes es muy valioso; en consecuencia, asumimos el compromiso de cumplir con todos los plazos pactados, de manera que el proyecto agregue valor al negocio cuando los clientes lo necesitan.';
+aLangKeys['es']['business.alliances']='ALIANZAS COMERCIALES';
+aLangKeys['es']['content.management']='EISYS CONTENT MANAGEMENT';
+aLangKeys['es']['read.more']='LEER MÁS';
+aLangKeys['es']['products']='PRODUCTOS';
+aLangKeys['es']['content']='ORACLE WEBCENTER CONTENT';
+aLangKeys['es']['portal']='ORACLE WEBCENTER PORTAL';
+aLangKeys['es']['sites']='ORACLE WEBCENTER SITES';
+aLangKeys['es']['cloud']='ORACLE DOCUMENTS CLOUD';
+aLangKeys['es']['about.title']='ACERCA DE EISYS';
+aLangKeys['es']['about.paragraph1']='Somos una empresa joven y dinámica formada por un equipo de profesionales que cuenta con vasta experiencia en el campo de la gestión de contenidos <i>(Content Management)</i>.';
+aLangKeys['es']['about.paragraph2']='Creemos que una relación cercana con el cliente, fundada en el entendimiento profundo de sus necesidades, es uno de los elementos esenciales que todo proyecto debe tener; por eso nuestro objetivo es darle un trato preferencial, personalizado y profesional a cada uno de nuestros clientes.';
+aLangKeys['es']['about.paragraph3']='Asimismo, ponemos nuestro conocimiento, metodología de trabajo y herramientas al servicio de quienes confían en nosotros para brindarles una solución especial, flexible, escalable y de alta calidad que se ajuste a sus realidades diarias.';
+aLangKeys['es']['about.paragraph4']='Si buscás la mejor solución de gestión de contenidos del mercado, somos la opción que debés elegir.';
+aLangKeys['es']['about.welcome']='¡Te damos la bienvenida a Eisys!';
+aLangKeys['es']['about.director.name']='Francisco Boccalatte';
+aLangKeys['es']['about.director']='Director';
+aLangKeys['es']['philosophy.title']='FILOSOFÍA EISYS';
+aLangKeys['es']['philosophy.paragraph1']='Somos una empresa formada por profesionales que trabajan con pasión y esfuerzo no solo para darles un trato personalizado a nuestros clientes, sino también para generar un compromiso real con ellos en todos los proyectos que llevamos adelante.';
+aLangKeys['es']['philosophy.paragraph2']='El conocimiento, la capacitación continua y la experiencia son nuestros más preciados activos que ponemos a disposición de nuestros clientes con el fin de garantizarles un producto final de excelencia que se adecúe a sus necesidades específicas.';
+aLangKeys['es']['philosophy.paragraph3']='Somos la única empresa de la Argentina que cuenta con especialistas certificados en Oracle WebCenter.';
+aLangKeys['es']['philosophy.paragraph4']='Además, utilizamos metodologías de trabajo combinadas para garantizar el cumplimiento de los plazos acordados y la calidad de nuestros productos, de manera que nuestros clientes nos sigan eligiendo.';
+aLangKeys['es']['background.title']='TRAYECTORIA';
+aLangKeys['es']['background.paragraph1']='Los miembros de nuestro equipo acompañaron las prácticas de <i>Content Management</i> desde sus inicios (a mediados de 2008) en la Argentina, se capacitaron en ese campo y obtuvieron las certificaciones correspondientes en <strong>Oracle WebCenter</strong>. Debido al amplio conocimiento adquirido, participaron activamente de la mayoría de las implementaciones de <strong>Enterprise Content Management</strong> realizadas en diversas áreas del mercado, como telcos, bancos, entidades gubernamentales, líneas aéreas y empresas de consumo masivo, entre otras.';
+aLangKeys['es']['background.paragraph2']='Al comprender la necesidad de una propuesta distinta en gestión de contenidos, así como las demandas y los requisitos del mercado actual, <strong>Francisco Boccalatte </strong>(nuestro Director) buscó cristalizar sus visiones e ideas; de este modo, nace <strong>Eisys</strong> como punto de convergencia de la experiencia de los profesionales de esta especialidad y cuyos objetivos son centrarse en el compromiso con el cliente, combinar las metodologías <strong>Oracle</strong> aprendidas y los métodos propios creados, así como brindar soluciones personalizadas, flexibles, escalables y de la más alta calidad que satisfagan las necesidades de los clientes más exigentes.';
+aLangKeys['es']['working.title']='NUESTRA FORMA DE TRABAJO';
+aLangKeys['es']['working.paragraph1']='En <strong>Eisys</strong>, creemos en la tríada de conocimiento, metodologías combinadas y capacidad de percepción de las necesidades de nuestros clientes. El primer elemento se nutre no solo de la experiencia, sino también de la capacitación continua, la que consideramos fundamental para poder proporcionar soluciones con tecnología y estándares de vanguardia. El segundo denota un modo específico e innovador de llevar a cabo nuestro trabajo que combina métodos <strong>Oracle</strong> y propios, y que garantizará un seguimiento adecuado de cada proyecto, así como la entrega en tiempo y forma del producto final. El tercero supone conversar con el cliente, entender su problemática, realizar el relevamiento correspondiente y proponer el sistema que mejor se ajuste a lo que necesite en su realidad diaria.';
+aLangKeys['es']['working.paragraph2']='En todos los proyectos, acordamos conjuntamente el alcance de la solución, se implementa en un ambiente de prueba, luego se homologa esa solución mediante las pruebas de usuario <i>(User Approval Test - UAT)</i> y, finalmente, se realiza el pasaje a producción. Durante este proceso, hacemos un seguimiento constante del proyecto mediante el cual le informamos al cliente el grado de avance. En <strong>Eisys</strong>, consideramos que el tiempo de nuestros clientes es muy valioso; en consecuencia, asumimos el compromiso de cumplir con todos los plazos pactados, de manera que el proyecto agregue valor al negocio cuando los clientes lo necesitan.';
+aLangKeys['es']['working.paragraph3']='Cabe destacar que, una vez finalizado el proyecto, ofrecemos un servicio de soporte y mantenimiento, cuyo objetivo es asegurar tanto el desempeño óptimo de la solución provista como su máximo tiempo activo <i>(uptime)</i> en el ambiente del cliente. Para poder brindar este servicio, nos valemos de herramientas y de tecnologías de vanguardia que permiten no solo la correcta gestión, sino también la trazabilidad de cada pedido de soporte. Además, utilizamos metodologías ágiles que ayudan a reducir al mínimo los tiempos de respuesta y de resolución de pedidos.';
+aLangKeys['es']['allies.title']='NUESTROS ALIADOS COMERCIALES';
+aLangKeys['es']['allies.paragraph1']='Dado que creemos que el todo es mucho más que la suma de las partes, consideramos importante crear una unidad de especialistas de distintas áreas para brindarles un valor agregado único a nuestros clientes. Por esto, formamos las siguientes alianzas comerciales:';
+aLangKeys['es']['services.question']='¿Qué es la gestión de contenidos <i>(content management)</i>?';
+aLangKeys['es']['services.answer.paragraph1']='La gestión de contenidos alude a la recopilación y la organización sistemática de la información que será utilizada por un público determinado —directores de empresas, clientes, etcétera—. No es una tecnología ni una metodología ni un proceso, es una combinación dinámica de estrategias, métodos y herramientas usada para capturar, gestionar, almacenar, proteger y proporcionar información que respalda los principales procesos organizacionales a lo largo de todo su ciclo de vida.';
+aLangKeys['es']['services.answer.paragraph2']='<strong>Eisys</strong> brinda servicios de consultoría, desarrollo, implementación, soporte y mantenimiento de soluciones Middleware de gestión de contenido a través de las herramientas de <strong>Oracle WebCenter</strong> que se detallan a continuación:';
+aLangKeys['es']['services.webcenter.title']='Oracle WebCenter Content';
+aLangKeys['es']['services.webcenter.text']='Esta solución proporciona un repositorio unificado para guardar contenido no estructurado, lo que les permite a nuestros clientes ponerlo a disposición de los usuarios del negocio en el formato adecuado y en el contexto de las aplicaciones familiares que se ajustan a su forma de trabajo.';
+aLangKeys['es']['services.webcenter.document']='Document Management';
+aLangKeys['es']['services.webcenter.document.text']='Esta solución les permite a nuestros clientes capturar, resguardar, compartir y distribuir documentos e informes digitales y en papel de manera eficaz y eficiente. De esta forma, ahorrarán dinero y mejorarán la eficiencia operativa por medio de la colaboración, la automatización de las tareas diarias y la disminución de los costos relacionados con la creación, la gestión y el almacenamiento de documentos de la empresa.';
+aLangKeys['es']['services.webcenter.digital']='Digital Asset Management';
+aLangKeys['es']['services.webcenter.digital.text']='Esta solución les permite a nuestros clientes almacenar, encontrar, visualizar y usar activos digitales y contenido audiovisual fácil y rápidamente. Se puede automatizar la generación de versiones alternativas de archivos para ser utilizados en sitios web, en materiales con soporte en papel y en otros programas. Asimismo, los activos pueden protegerse y verificarse por medio de un control de acceso granular y configurable.';
+aLangKeys['es']['services.webcenter.enterprise']='Enterprise Capture and Imaging';
+aLangKeys['es']['services.webcenter.enterprise.text']='En todos los procesos comerciales, la información no estructurada queda encerrada en soporte en papel y en documentos digitales, por lo que la transferencia de datos a sistemas  <i>back-end</i> para que puedan ser utilizados de manera eficaz demanda muchísimo tiempo y cuesta mucho dinero. En pos de minimizar los costos y de aumentar la eficiencia, nuestros clientes buscan automatizar el procesamiento de documentos, para lo cual esta es la solución perfecta.';
+aLangKeys['es']['services.webcenter.records']='Records Management';
+aLangKeys['es']['services.webcenter.records.text']='Esta solución ayuda a nuestros clientes a controlar la creación, la clasificación, la conservación y la destrucción de contenido y de registros comerciales, lo que mejora el cumplimiento de las normativas vigentes, minimiza el riesgo de que haya litigios y reduce el costo de almacenamiento.';
+aLangKeys['es']['services.cloud.title']='Oracle Documents Cloud';
+aLangKeys['es']['services.cloud.paragraph1']='<i>Oracle Documents Cloud Service</i> es una plataforma de colaboración para empresas que se encuentra disponible en Oracle Cloud. Este servicio permite la conexión entre la información y las personas. Al estar creado de cero para las empresas, ofrece una seguridad robusta y opciones de integración, mientras que, al mismo tiempo, se centra en que la colaboración sea fácil de utilizar y que esté optimizada para el uso en redes sociales y tecnologías móviles.';
+aLangKeys['es']['services.cloud.paragraph2']='Cuando <i>Oracle Documents Cloud Service</i> se integra con <i>Oracle WebCenter Content</i>, da lugar a una solución de gestión de contenidos empresariales híbrida y verdaderamente abarcativa, que cuenta con una infraestructura ECM y una seguridad unificadas provenientes de un único proveedor.';
+aLangKeys['es']['services.sites.title']='Oracle WebCenter Sites';
+aLangKeys['es']['services.sites.paragraph1']='Esta solución les permite a nuestros clientes proporcionar una experiencia digital excepcional al crear contenido de forma ágil, atraer eficazmente a quienes visitan los sitios web y publicar de manera rápida. Además, ofrece la posibilidad de unir las experiencias que los clientes tienen en todos los puntos de contacto para crear lealtad, atraer una mayor cantidad de usuarios y disminuir los costos operativos.';
+aLangKeys['es']['services.portal.title']='Oracle WebCenter Portal';
+aLangKeys['es']['services.portal.paragraph1']='Esta solución les permite a nuestros clientes crear intranets, extranets, aplicaciones compuestas y portales de autoservicio con rapidez y facilidad, lo que les proporciona a los usuarios un modo más seguro y eficaz de utilizar la información y de interactuar con aplicaciones, procesos y otros usuarios.';
+aLangKeys['es']['answer.paragraph1']='answer.paragraph1';
+aLangKeys['es']['contact.text']=' Si querés comunicarte con nosotros, envianos un correo electrónico a <a class=\"bold\" href=\"mailto:escribinos@eisys.com.ar\" target=\"_top\">escribinos@eisys.com.ar</a> o completá el siguiente formulario:';
+aLangKeys['es']['contact.name']='*Nombre y apellido:';
+aLangKeys['es']['contact.company']='Empresa:';
+aLangKeys['es']['contact.position']='Cargo:';
+aLangKeys['es']['contact.phone']='Teléfono fijo:';
+aLangKeys['es']['contact.cellphone']='Teléfono móvil:';
+aLangKeys['es']['contact.mail']='*Correo electrónico:';
+aLangKeys['es']['contact.comments']='*Comentarios';
+aLangKeys['es']['contact.send']='Enviar';
+aLangKeys['es']['contact.mandatory']='* Campos obligatorios';
+aLangKeys['es']['contact.success']='¡Éxito!';
+aLangKeys['es']['contact.error']='¡Error!';
+aLangKeys['es']['contact.success.message']='Su mensaje fue enviado con éxito.';
+aLangKeys['es']['contact.error.message']='Su mensaje no pudo ser enviado.';
+aLangKeys['es']['contact.success.resultMessage']='contact.success.resultMessage';
+aLangKeys['es']['contact.error.resultMessage']='contact.error.resultMessage';

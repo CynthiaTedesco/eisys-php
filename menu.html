@@ -1,18 +1,31 @@
-<div class="navbar navbar-static-top">
-	<div class="container">
-		<div class="navbar-toggle menu-button menu-button-close" onclick="changeButtonImgAndClick()" data-toggle="collapse" data-target=".navHeaderCollapse"></div>
-		<div class="collapse navbar-collapse navHeaderCollapse">
-			<ul class="nav navbar-nav navbar-left">
-				<li class="link" id="menu-inicio" onclick="goToHome()"><a href="index.html" key="menu-inicio" class="tr">INICIO</a></li>
-				<li class="link" id="menu-conocenos" onclick="goToKnowUs()"><a href="conocenos.html" key="menu-conocenos" class="tr">CONOCENOS</a></li>
-				<li class="link" id="menu-servicios" onclick="goToServices()"><a href="servicios.html" key="menu-servicios" class="tr">SERVICIOS</a></li>
-				<li class="link" id="menu-especializaciones" onclick="goToSpecializations()"><a href="especializaciones.html" key="menu-especializaciones" class="tr">ESPECIALIZACIONES</a></li>
-				<li class="link" id="menu-presupuestos" onclick="goToQuotes()"><a href="presupuestos.html" key="menu-presupuestos" class="tr">PRESUPUESTOS</a></li>
-				<li class="link" id="menu-contactanos" onclick="goToContactus()"><a href="contactanos.html" key="menu-contactanos" class="tr">CONTACTANOS</a></li>
-				<li class="link" id="menu-sumate" onclick="goToJoinUs()"><a href="sumate.html" key="menu-sumate" class="tr">SUMATE AL EQUIPO</a></li>
-				<li id="es" class="language link selected-language"><a>ESPAÑOL</a></li>
-				<li id="en" class="language link"><a>ENGLISH</a></li>
-			</ul>
+<nav class="navbar navbar-default main">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">
+				<img alt="Brand" src="images/nav/eisys-logo.png">
+			</a>
 		</div>
-	</div>
-</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li onclick="goToHome()"><a href="index.html" key="nav.home" class="tr"><span class="sr-only">(current)</span></a></li>
+				<li onclick="goToKnowUs()"><a href="conocenos.html" key="nav.know.us" class="tr"></a></li>
+				<li onclick="goToServices()"><a href="servicios.html" key="nav.services" class="tr"></a></li>
+				<li onclick="goToContactus()"><a href="contactanos.html" key="nav.contact.us" class="tr"></a></li>
+				<li class="visible-xs"><a href="/conocenos/acerca" key="nav.know.us.about" class="tr"></a></li>
+				<li class="visible-xs"><a href="/conocenos/filosofia" key="nav.know.us.philosophy" class="tr"></a></li>
+				<li class="visible-xs"><a href="/conocenos/trayectoria" key="nav.know.us.background" class="tr"></a></li>
+				<li class="visible-xs"><a href="/conocenos/trabajo" key="nav.know.us.working" class="tr"></a></li>
+				<li class="visible-xs"><a href="/conocenos/alianzas" key="nav.know.us.allies" class="tr"></a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
