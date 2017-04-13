@@ -160,7 +160,6 @@ $(function() {
 			data: data,
 			success: function(e) {
 				$("button.send-button").button('reset');
-				clearQuotesFields();
 				if (hasError(e)){
 					$("div.error-message").removeClass('hidden');
 					if (e.indexOf("security issue")){

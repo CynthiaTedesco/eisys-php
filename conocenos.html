@@ -11,11 +11,8 @@
 		<link rel="stylesheet" type="text/css" href="stylesheets/fonts.css" />
 		<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css" />
 
-
-		<!--<link rel="stylesheets" href="stylesheets/bootstrap/bootstrap-theme.min.css">-->
 		<script type="text/javaScript" src="js/lang.js"></script>
 		<script type="text/javaScript" src="js/en.js"></script>
-		<!--<script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>-->
 		<script type="text/javaScript" src="js/es.js"></script>
 		<script type="text/javaScript" src="js/eisys.js"></script>
 		<script type="text/javascript">
@@ -25,99 +22,93 @@
 			    });
 			});
 			$(function() {
-		        selectLetsKnowUsTab();
+		        selectKnowUsTab();
 			});
 		</script>
 	</head>
 	<body>
 	<header id="header"></header>
 	<div id="menu"></div>
-	<div id="content">
-		<div class="section-header">
-			<img src="images/conocenos/conocenos-foto.jpg" class="img-responsive" alt="conocenos-header">
-			<div class="over-header">
-				<span class="tr" key="menu-conocenos">CONOCENOS</span>
-			</div>
-		</div>
-		<div class="section-body">
-			<div class="conocenos-menu">
-				<div class="col-md-4 link active"><a key="acerca-de" class="tr"></a></div>
-				<div class="col-md-4 link"><a key="trayectoria" class="tr"></a></div>
-				<div class="col-md-4 link"><a key="forma-de-trabajo" class="tr"></a></div>
-			</div>
-			<hr>
-			<div class="conocenos-content acerca-de container">
-				<div class="title">
-					<h1 class="tr" key="acerca-de-title"></h1>
-					<hr>
+	<div class="m-t-5-6em banner-parent">
+		<div class="banner conocenos">
+			<div class="title extra-bold tr" key="nav.know.us"></div>
+			<div class="content">
+				<div class="col-sm-4 col-lg-3 hidden-xs menu conocenos-menu">
+					<nav class="know navbar navbar-default">
+						<div class="container-fluid">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a class="tr" key="nav.know.us.about"></a></li>
+								<li><a class="tr" key="nav.know.us.philosophy"></a></li>
+								<li><a class="tr" key="nav.know.us.background"></a></li>
+								<li><a class="tr" key="nav.know.us.working"></a></li>
+								<li><a class="tr" key="nav.know.us.allies"></a>
+								</li>
+							</ul>
+						</div><!-- /.container-fluid -->
+					</nav>
 				</div>
-				<div class="text">
-					<p class="tr" key="acerca-de-1"></p>
-					<p class="tr" key="acerca-de-2"></p>
-					<p class="tr" key="acerca-de-3"></p>
-					<p class="tr" key="acerca-de-4"></p>
-					<p class="tr" key="acerca-de-5"></p>
-					<p class="tr" key="acerca-de-6"></p>
-					<p class="tr" key="acerca-de-bienvenida"></p>
-					<p class="tr" key="acerca-de-gracias"></p>
-					<div class="firma">
-						<img src="images/conocenos/acercade-muñequito.png" alt="muniequito ceo">
-						<p class="name tr" key="acerca-de-valeria"></p>
-						<p class="ceo tr" key="acerca-de-directora"></p>
+				<div class="conocenos-content acerca-de container section col-sm-7 col-lg-8">
+					<div class="title light tr" key="about.title"></div>
+					<div class="paragraphs">
+						<div class="paragraph tr-as-html" key="about.paragraph1"></div>
+						<div class="paragraph tr" key="about.paragraph2"></div>
+						<div class="paragraph tr" key="about.paragraph3"></div>
+						<hr>
+						<div class="photo col-sm-5">
+							<img src="images/conocenos/francisco.png" alt="francisco">
+						</div>
+						<div class="col-sm-7 signature">
+							<div class="paragraph tr" key="about.paragraph4"></div>
+							<div class="welcome bold tr" key="about.welcome"></div>
+							<div class="signature"><i class ="tr" key="about.director.name"></i></div>
+							<div class="signature"><i class ="tr" key="about.director"></i></div>
+						</div>
 					</div>
 				</div>
-				<div class="footer-aboutus">
-					<img class="img-responsive" src="images/conocenos/acercade-back-filosofia.jpg" alt="lexar philosophy">
-					<h2 class="philosophy-title tr" key="acerca-de-filosofia-title"></h2>
-					<p class="philosophy-text tr" key="acerca-de-filosofia"></p>
+				<div class="conocenos-content filosofia hidden container section col-sm-7 col-lg-8">
+					<div class="title light tr" key="philosophy.title"></div>
+					<div class="paragraphs">
+						<div class="paragraph tr-as-html" key="philosophy.paragraph1"></div>
+						<div class="paragraph tr" key="philosophy.paragraph2"></div>
+					</div>
+					<div class="col-sm-3 img-filosofia">
+						<img src="images/conocenos/filosofia-oracle.png" alt="img-trabajo" class="img-responsive">
+					</div>
+					<div class="col-sm-9">
+						<div class="orange-paragraph bold paragraph tr" key="philosophy.paragraph3"></div>
+						<div class="paragraph tr" key="philosophy.paragraph4"></div>
+					</div>
 				</div>
-			</div>
-			<div class="conocenos-content trayectoria hidden container">
-				<div class="title">
-					<h1 class="tr" key="trayectoria-title"></h1>
-					<hr>
+				<div class="conocenos-content trayectoria hidden container section col-sm-7 col-lg-8">
+					<div class="title light tr" key="background.title"></div>
+					<div class="paragraphs">
+						<div class="paragraph tr-as-html" key="section.paragraph1"></div>
+						<div class="paragraph tr-as-html" key="section.paragraph2"></div>
+					</div>
 				</div>
-				<div class="text">
-					<p class="tr" key="trayectoria-1"></p>
-					<p class="tr" key="trayectoria-2"></p>
-					<p class="tr" key="trayectoria-3"></p>
-					<p class="tr" key="trayectoria-4"></p>
-					<p class="tr" key="trayectoria-5"></p>
-					<p class="tr-as-html" key="trayectoria-6"></p>
-					<p class="tr" key="trayectoria-7"></p>
-					<p class="tr" key="trayectoria-8"></p>
-					<img src="images/conocenos/trayectoria-muñequito.jpg" alt="muniequito trayectoria">
+				<div class="conocenos-content trabajo hidden container section col-sm-7 col-lg-8">
+					<div class="title light tr" key="working.title"></div>
+					<div class="img-trabajo">
+						<img src="images/conocenos/img-trabajo.png" alt="img-trabajo" class="img-responsive">
+					</div>
+					<div class="paragraphs">
+						<div class="paragraph tr-as-html" key="working.paragraph1"></div>
+						<div class="paragraph tr-as-html" key="working.paragraph2"></div>
+						<div class="paragraph tr-as-html" key="working.paragraph3"></div>
+					</div>
 				</div>
-				<div class="footer">
-					<p class="tr hidden-xs hidden-sm" key="trayectoria-footer"></p>
-					<div>
-						<div class="quotes-button link" onclick="goToQuotes()"><a class="tr" key="solicita-presupuesto" href="presupuestos.html"></a></div>
-						<img class="quotes-img" src="images/conocenos/muñequito-violeta.png" alt="muniequito violeta">	
+				<div class="conocenos-content alianzas hidden container section col-sm-7 col-lg-8">
+					<div class="title light tr" key="allies.title"></div>
+					<div class="col-sm-8 paragraphs">
+						<div class="paragraph tr" key="allies.paragraph1"></div>
+					</div>
+					<div class="col-sm-4">
+						<div class="allies-logos"><img src="images/conocenos/alianzas-oracle.png" alt="alianza-oracle" class="img-responsive"></div>
+						<div class="allies-logos"><img src="images/conocenos/alianzas-witbor.png" alt="alianza-witbor" class="img-responsive"></div>
 					</div>
 				</div>
 			</div>
-			<div class="conocenos-content forma-de-trabajo hidden container">
-				<div class="title">
-					<h1 class="tr" key="forma-de-trabajo-title"></h1>
-					<hr>
-				</div>
-				<div class="text">
-					<p class="tr" key="forma-de-trabajo-1"></p>
-					<p class="tr" key="forma-de-trabajo-2"></p>
-					<p class="tr" key="forma-de-trabajo-3"></p>
-					<p class="tr" key="forma-de-trabajo-4"></p>
-					<p class="tr" key="forma-de-trabajo-5"></p>
-					<p class="tr" key="forma-de-trabajo-6"></p>
-					<div>
-						<img class="img-responsive" src="images/conocenos/formatrabajo-muñequito.png" alt="muniequito trayectoria">
-					</div>
-				</div>
-				<div class="footer">
-					<p class="tr hidden-xs hidden-sm" key="forma-de-trabajo-footer"></p>
-					<div class="quotes-button link" onclick="goToQuotes()"><a class="tr" key="solicita-presupuesto" href="presupuestos.html"></a></div>
-					<img class="quotes-img" src="images/conocenos/muñequito-violeta.png" alt="muniequito violeta">	
-				</div>
-			</div>
+
 		</div>
 	</div>
 <footer id="footer"></footer>
