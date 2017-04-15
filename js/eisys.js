@@ -15,19 +15,27 @@ var selectKnowUsTab = function(){
     switch(localStorage.getItem("letsKnowUsTab")){
         case("1"):
             $('.conocenos-menu li:nth-child(1)').addClass('active');
-            $('.conocenos-content.acerca-de').removeClass('hidden');
+            $('.conocenos-content.about').removeClass('hidden');
             break;
         case("2"):
             $('.conocenos-menu li:nth-child(2)').addClass('active');
-            $('.conocenos-content.trayectoria').removeClass('hidden');
+            $('.conocenos-content.philosophy').removeClass('hidden');
             break;
         case("3"):
             $('.conocenos-menu li:nth-child(3)').addClass('active');
-            $('.conocenos-content.forma-de-trabajo').removeClass('hidden');
+            $('.conocenos-content.background').removeClass('hidden');
+            break;
+        case("4"):
+            $('.conocenos-menu li:nth-child(3)').addClass('active');
+            $('.conocenos-content.working').removeClass('hidden');
+            break;
+        case("5"):
+            $('.conocenos-menu li:nth-child(3)').addClass('active');
+            $('.conocenos-content.allies').removeClass('hidden');
             break;
         default:
             $('.conocenos-menu li:nth-child(1)').addClass('active');
-            $('.conocenos-content.acerca-de').removeClass('hidden');
+            $('.conocenos-content.about').removeClass('hidden');
     }
 }
 
@@ -182,21 +190,31 @@ $(function() {
         if (this.parentElement.className !== "active"){
             
             $('.conocenos-content').addClass('hidden');
-            $('.conocenos-menu div').removeClass('active');
+            $('.conocenos-menu li').removeClass('active');
             $(this.parentElement).addClass('active');
 
             switch(this.attributes.key.value){
-                case('acerca-de'):
+                case('nav.know.us.about'):
                     localStorage.setItem("letsKnowUsTab", 1);
-                    $('.conocenos-content.acerca-de').removeClass('hidden');
+                    $('.conocenos-content.about').removeClass('hidden');
                     break;
-                case('trayectoria'):
+                case('nav.know.us.philosophy'):
                     localStorage.setItem("letsKnowUsTab", 2);
-                    $('.conocenos-content.trayectoria').removeClass('hidden');
+                    $('.conocenos-content.philosophy').removeClass('hidden');
                     break;
-                case('forma-de-trabajo'):
+                case('nav.know.us.background'):
                     localStorage.setItem("letsKnowUsTab", 3);
-                    $('.conocenos-content.forma-de-trabajo').removeClass('hidden');
+                    $('.conocenos-content.background').removeClass('hidden');
+                    break;
+                case('nav.know.us.working'):
+                    localStorage.setItem("letsKnowUsTab", 4);
+                    $('.conocenos-content.working').removeClass('hidden');
+                    break;
+                case('nav.know.us.allies'):
+                    localStorage.setItem("letsKnowUsTab", 5);
+                    $('.conocenos-content.allies').removeClass('hidden');
+                    break;
+                default:
                     break;
             }
         }
@@ -215,35 +233,3 @@ var clearTeamFields = function(){
     $.post("php/clearUploads.php");
     $('.file-upload-statusbar').hide();
 }
-
-$(function() {
-    $(".selecciona-menu div").click(function() {
-        if (this.className !== "active"){
-            
-            $('.selecciona-content>div').addClass('hidden');
-            $('.selecciona-menu div').removeClass('active');
-            $(this).addClass('active');
-
-            switch(this.firstElementChild.attributes.key.value){
-                case('seleccion-traduccion'):
-                    $('.selecciona-content div.traduccion-form').removeClass('hidden');
-                    break;
-                case('seleccion-correccion'):
-                    $('.selecciona-content div.correccion-form').removeClass('hidden');
-                    break;
-                case('seleccion-interpretacion'):
-                    $('.selecciona-content div.interpretacion-form').removeClass('hidden');
-                    break;
-                case('seleccion-subtitulado'):
-                    $('.selecciona-content div.subtitulado-form').removeClass('hidden');
-                    break;
-            }
-
-            $('.selecciona-content>div input.required-if-visible').prop('required',true);
-            $('.selecciona-content>div textarea.required-if-visible').prop('required',true);
-            
-            $('.selecciona-content>div:hidden input.required-if-visible').prop('required',false);
-            $('.selecciona-content>div:hidden textarea.required-if-visible').prop('required',false);
-        }
-    });
-});
