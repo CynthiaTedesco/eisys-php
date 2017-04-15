@@ -80,5 +80,3 @@ aLangKeys['es']['contact.success']='¡Éxito!';
 aLangKeys['es']['contact.error']='¡Error!';
 aLangKeys['es']['contact.success.message']='Su mensaje fue enviado con éxito.';
 aLangKeys['es']['contact.error.message']='Su mensaje no pudo ser enviado.';
-aLangKeys['es']['contact.success.resultMessage']='contact.success.resultMessage';
-aLangKeys['es']['contact.error.resultMessage']='contact.error.resultMessage';
