@@ -27,6 +27,8 @@ $(function() {
         data = data.concat(cellphone ? '&cellphone=' + cellphone : '');
 
 		var message = $('#comments').val();
+        message = message.replace(new RegExp(String.fromCharCode(10), 'g'), '<br/>');
+        message = message.replace(new RegExp(String.fromCharCode(13), 'g'), '<br/>');
 		data = data.concat(message ? '&message=' + message : '');
 
 		e.preventDefault();

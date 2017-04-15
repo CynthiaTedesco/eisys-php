@@ -38,7 +38,7 @@ $message .= $cellphone ? '<li><span><strong>Teléfono móvil:</strong> </span><s
 $message .= '<li><span><strong>Email:</strong> </span><span>' . makeLabel($email) . '</span></li>';
 $message .= '</ul>';
 $message .= '<strong><span>Mensaje:</span></strong>';
-$message .= '<ul style="list-style:none"><li><span>' . makeLabel($comment) . '</span></li></ul>';
+$message .= '<ul style="list-style:none"><li><span>' . $comment . '</span></li></ul>';
 
 $message .= '</body></html>';
 
