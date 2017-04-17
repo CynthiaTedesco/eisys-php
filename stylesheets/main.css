@@ -86,8 +86,14 @@ a.navbar-brand img {
     padding-left: 1em;
 }
 
+.alert-warning strong{
+    float: left;
+    padding-right: 0.5em;
+}
+
 nav.navbar {
     background-color: transparent;
+    max-width: 1900px;
     position: absolute;
     width: 100%;
     top: 0;
@@ -429,6 +435,11 @@ span.language {
 
 body .title, body .subtitle {
     letter-spacing: 0.2em;
+}
+
+body{
+    max-width:1900px;
+    margin: 0 auto;
 }
 
 a {
