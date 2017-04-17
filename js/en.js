@@ -80,3 +80,6 @@ aLangKeys['en']['contact.success']='Success!';
 aLangKeys['en']['contact.error']='Error!';
 aLangKeys['en']['contact.success.message']='Your message has been sent.';
 aLangKeys['en']['contact.error.message']='Your message has not been sent.';
+
+aLangKeys['en']['IE-warning']="You are accessing Eisys by using Internet Explorer. Some sections may not work properly.";
+aLangKeys['en']['warning']="Warning!";
