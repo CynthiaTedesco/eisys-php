@@ -15,26 +15,32 @@ var selectKnowUsTab = function(){
     switch(localStorage.getItem("letsKnowUsTab")){
         case("1"):
             $('.conocenos-menu li:nth-child(1)').addClass('active');
+            $('li#menu-acerca').addClass('active');
             $('.conocenos-content.about').removeClass('hidden');
             break;
         case("2"):
             $('.conocenos-menu li:nth-child(2)').addClass('active');
+            $('li#menu-filosofia').addClass('active');
             $('.conocenos-content.philosophy').removeClass('hidden');
             break;
         case("3"):
             $('.conocenos-menu li:nth-child(3)').addClass('active');
+            $('li#menu-trayectoria').addClass('active');
             $('.conocenos-content.background').removeClass('hidden');
             break;
         case("4"):
             $('.conocenos-menu li:nth-child(3)').addClass('active');
+            $('li#menu-trabajo').addClass('active');
             $('.conocenos-content.working').removeClass('hidden');
             break;
         case("5"):
             $('.conocenos-menu li:nth-child(3)').addClass('active');
+            $('li#menu-alianzas').addClass('active');
             $('.conocenos-content.allies').removeClass('hidden');
             break;
         default:
             $('.conocenos-menu li:nth-child(1)').addClass('active');
+            $('li #menu-acerca').addClass('active');
             $('.conocenos-content.about').removeClass('hidden');
     }
 }
@@ -62,6 +68,31 @@ var goToServices = function(){
 }
 
 var goToKnowUs = function(){
+    window.location = "conocenos.html";
+}
+
+var goToAbout = function () {
+    localStorage.setItem("letsKnowUsTab", 1);
+    window.location = "conocenos.html";
+}
+
+var goToPhilosophy = function () {
+    localStorage.setItem("letsKnowUsTab", 2);
+    window.location = "conocenos.html";
+}
+
+var goToBackground = function () {
+    localStorage.setItem("letsKnowUsTab", 3);
+    window.location = "conocenos.html";
+}
+
+var goToWorking = function () {
+    localStorage.setItem("letsKnowUsTab", 4);
+    window.location = "conocenos.html";
+}
+
+var goToAllies = function () {
+    localStorage.setItem("letsKnowUsTab", 5);
     window.location = "conocenos.html";
 }
 
@@ -162,13 +193,12 @@ var onChooseLanguage = function(e){
     changeButtonImgAndClick();
 };
 
-var menuBehavior = function(active) {
+var menuBehavior = function(activeTab) {
 
     translateBehavior();
 
     $('.main ul.nav > li').removeClass('active');
-    $(active).addClass('active');
-
+    $(activeTab).addClass('active');
 };
 
 /* END HEADER AND MENU */
@@ -179,27 +209,33 @@ $(function() {
             
             $('.conocenos-content').addClass('hidden');
             $('.conocenos-menu li').removeClass('active');
+            $('li#menu-acerca, li#menu-filosofia, li#menu-trayectoria, li#menu-trabajo, li#menu-alianzas').removeClass('active');
             $(this.parentElement).addClass('active');
 
             switch(this.attributes.key.value){
                 case('nav.know.us.about'):
                     localStorage.setItem("letsKnowUsTab", 1);
+                    $('li#menu-acerca').addClass('active');
                     $('.conocenos-content.about').removeClass('hidden');
                     break;
                 case('nav.know.us.philosophy'):
                     localStorage.setItem("letsKnowUsTab", 2);
+                    $('li#menu-filosofia').addClass('active');
                     $('.conocenos-content.philosophy').removeClass('hidden');
                     break;
                 case('nav.know.us.background'):
                     localStorage.setItem("letsKnowUsTab", 3);
+                    $('li#menu-trayectoria').addClass('active');
                     $('.conocenos-content.background').removeClass('hidden');
                     break;
                 case('nav.know.us.working'):
                     localStorage.setItem("letsKnowUsTab", 4);
+                    $('li#menu-trabajo').addClass('active');
                     $('.conocenos-content.working').removeClass('hidden');
                     break;
                 case('nav.know.us.allies'):
                     localStorage.setItem("letsKnowUsTab", 5);
+                    $('li#menu-alianzas').addClass('active');
                     $('.conocenos-content.allies').removeClass('hidden');
                     break;
                 default:

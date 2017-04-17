@@ -373,9 +373,24 @@ span.language {
 
 .main.navbar-default .navbar-nav > .active > a,
 .main.navbar-default .navbar-nav > .active > a:focus,
-.main.navbar-default .navbar-nav > .active > a:hover {
+.main.navbar-default .navbar-nav > .active > a:hover,
+#menu-acerca.active, #menu-acerca.active:focus, #menu-acerca.active:hover,
+#menu-filosofia.active, #menu-filosofia.active:focus, #menu-filosofia.active:hover,
+#menu-alianzas.active, #menu-alianzas.active:focus, #menu-alianzas.active:hover,
+#menu-trayectoria.active, #menu-trayectoria.active:focus, #menu-trayectoria.active:hover,
+#menu-trabajo.active, #menu-trabajo.active:focus, #menu-trabajo.active:hover {
     background: #0B3A4A;
     color: white;
+}
+
+#menu-acerca, #menu-filosofia, #menu-alianzas, #menu-trayectoria, #menu-trabajo{
+    color: #A2BCCB;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    cursor: pointer;
 }
 
 .main.navbar-default .navbar-nav > li > a,
