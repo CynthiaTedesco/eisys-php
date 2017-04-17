@@ -15,7 +15,7 @@ $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 $mail->CharSet = 'UTF-8';
 $mail->From = 'eisys.sender@gmail.com';
 $mail->FromName = 'Eisys Web';
-$mail->AddAddress('cynthia.tedesco@gmail.com', 'Cyn'); // Name is optional
+$mail->AddAddress('escribinos@eisys.com.ar'); // Name is optional
 $mail->IsHTML(true); // Set email format to HTML
 
 $name = $_POST['name'];
