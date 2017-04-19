@@ -642,6 +642,7 @@ div.banner > div.title {
 
 .banner.conocenos {
     background-image: url("../images/conocenos/bk.jpg");
+    width: 100%;
 }
 
 .know .navbar-nav > li {
