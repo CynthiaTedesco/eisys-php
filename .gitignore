@@ -1,6 +1,5 @@
 *.env
 *.dev
 .idea/*
-vendor/*
 images/footer/thumbs.db
 .DS_Store
