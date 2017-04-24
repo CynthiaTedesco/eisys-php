@@ -1,16 +1,17 @@
 <?php 
-require '../vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+include_once 'phpmailer/class.phpmailer.php';
+require_once 'phpmailer/class.smtp.php';
 
-$mail = new PHPMailer;
+$mail = new PHPMailer();
 
-$mail->IsSMTP(); // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup server
+$mail->isSMTP(); // Set mailer to use SMTP
+$mail->Host = 'smtp.gmail.com';  // Specify main and backup smtp server
 $mail->SMTPAuth = true; // Enable SMTP authentication
+$mail->SMTPDebug = 4; // 0 No output, 1 Commands, 2 Data and commands, 3 Data, commands plus connection status, 4 Low-level data output
+$mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
 $mail->Username = 'eisys.sender@gmail.com'; // SMTP username
 $mail->Password = 'eisyssysie'; // SMTP password
-$mail->SMTPDebug = 0; // debugging: 0 = nothing, 1 = errors and messages, 2 = messages only
-$mail->SMTPort = 587; // 587 or 465
-$mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
+$mail->Port = 587; // 25 default, 587 tls, 465 ssl
 
 $mail->CharSet = 'UTF-8';
 $mail->From = 'eisys.sender@gmail.com';
