@@ -16,7 +16,8 @@ $mail->Port = 587; // 25 default, 587 tls, 465 ssl
 $mail->CharSet = 'UTF-8';
 $mail->From = 'eisys.sender@gmail.com';
 $mail->FromName = 'Eisys Web';
-$mail->AddAddress('escribinos@eisys.com.ar'); // Name is optional
+//$mail->AddAddress('escribinos@eisys.com.ar'); // Name is optional
+$mail->AddAddress('cynthia.tedesco@gmail.com'); // Name is optional
 $mail->IsHTML(true); // Set email format to HTML
 
 $name = $_POST['name'];
