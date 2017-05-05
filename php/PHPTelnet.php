@@ -27,7 +27,7 @@ class PHPTelnet {
 	3 = login failed
 	4 = PHP version too low
 	*/
-	function Connect($server,$user,$pass) {
+	function Connect($server,$port,$user,$pass) {
 		$rv=0;
 		$vers=explode('.',PHP_VERSION);
 		$needvers=array(4,3,0);
@@ -41,6 +41,10 @@ class PHPTelnet {
 				return 4;
 			}
 		}
+        
+        if (!$port){
+            $port = 80;
+        }
 		
 		$this->Disconnect();
 		
@@ -51,6 +55,8 @@ class PHPTelnet {
                 error_log($server);
                 error_log('ip = ');
                 error_log($ip);
+                error_log('port = ');
+                error_log($port);
 				if ($ip==$server) {
 					$ip='';
 					$rv=2;
@@ -59,18 +65,23 @@ class PHPTelnet {
 		} else $ip='127.0.0.1';
 		
 		if (strlen($ip)) {
-			if ($this->fp=fsockopen($ip,25)) {
+			if ($this->fp=fsockopen($ip,$port)) {
                 error_log('line 59. this->fp has something');
 				fputs($this->fp,$this->conn1);
 				$this->Sleep();
 				
 				fputs($this->fp,$this->conn2);
 				$this->Sleep();
-                error_log('CALLING GETRESPONSE FROM LINE 65');
-				$this->GetResponse($r);
-				$r=explode("\n",$r);
-				$this->loginprompt=$r[count($r)-1];
-                error_log(print_r($r, TRUE));
+                
+                if (strcmp($server,'localhost')!==0){
+                    error_log('CALLING GETRESPONSE FROM LINE 65');
+                    $this->GetResponse($r);
+                    $r=explode("\n",$r);
+                    $this->loginprompt=$r[count($r)-1];
+                    error_log(print_r($r, TRUE));
+                } else {
+                    error_log('Success connection to localhost');
+                }
 
 //				fputs($this->fp,"$user\r");
 //				$this->Sleep();
@@ -88,10 +99,11 @@ class PHPTelnet {
 			} else $rv=1;
 		}
 		
-		if ($rv) 
+		if ($rv) {
             $this->ConnectError($rv);
-        else
-            return print_r($r, TRUE);    
+        } else if (strcmp($server,'localhost')!==0){
+                return print_r($r, TRUE);
+        }
         
 		return $rv;
 	}

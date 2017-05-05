@@ -1,0 +1,6 @@
+[19-Apr-2017 21:26:57 UTC] PHP Warning:  require(../vendor/phpmailer/phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/c14881/public_html/php/email-sender.php on line 2
+[19-Apr-2017 21:26:57 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/phpmailer/phpmailer/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/c14881/public_html/php/email-sender.php on line 2
+[19-Apr-2017 21:27:40 UTC] PHP Warning:  require(../vendor/phpmailer/phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/c14881/public_html/php/email-sender.php on line 2
+[19-Apr-2017 21:27:40 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/phpmailer/phpmailer/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/c14881/public_html/php/email-sender.php on line 2
+[19-Apr-2017 21:32:26 UTC] PHP Warning:  require(../vendor/phpmailer/phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/c14881/public_html/php/email-sender.php on line 2
+[19-Apr-2017 21:32:26 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/phpmailer/phpmailer/PHPMailerAutoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/c14881/public_html/php/email-sender.php on line 2
