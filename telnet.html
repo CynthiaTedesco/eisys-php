@@ -1,0 +1,33 @@
+
+<html>
+<head>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(function() { 
+            $("button").click(function(e){
+                console.log('going to telnetting...');
+                e.preventDefault();
+                $.ajax({
+                    type:'POST',
+                    url: 'php/try-telnet.php',
+                    data: '',
+                }).done(function (data) { 
+                    console.log(data); 
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    console.log('ajax telnet call has failed'); 
+                }).always(function() {
+                    console.log("Telnetting complete."); 
+                });
+
+            });
+        });
+    </script>
+</head>
+<body>
+    <button type="button" data-loading-text="<i class='fa fa-spinner fa-spin '></i>" class="btn btn-default telnet-button">TRY TELNET</button>
+</body>
+</html>
+
