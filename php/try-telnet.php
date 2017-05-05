@@ -6,7 +6,7 @@ $telnet->show_connect_error=0;
 
 // if the first argument to Connect is blank,
 // PHPTelnet will connect to the local host via 127.0.0.1
-$result = $telnet->Connect('smtp.gmail.com',25,'','');
+$result = $telnet->Connect('smtp.gmail.com',587,'','');
 
 switch ($result) {
 case 0:

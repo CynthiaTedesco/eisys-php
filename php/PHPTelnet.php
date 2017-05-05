@@ -82,20 +82,6 @@ class PHPTelnet {
                 } else {
                     error_log('Success connection to localhost');
                 }
-
-//				fputs($this->fp,"$user\r");
-//				$this->Sleep();
-//
-//				fputs($this->fp,"$pass\r");
-//				if ($this->use_usleep) usleep($this->loginsleeptime);
-//				else sleep(1);
-//              error_log('CALLING GETRESPONSE FROM LINE 77');
-//				$this->GetResponse($r);
-//				$r=explode("\n",$r);
-//				if (($r[count($r)-1]=='')||($this->loginprompt==$r[count($r)-1])) {
-//					$rv=3;
-//					$this->Disconnect();
-//				}
 			} else $rv=1;
 		}
 		
